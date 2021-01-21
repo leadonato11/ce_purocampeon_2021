@@ -1,0 +1,38 @@
+.navbar {
+    padding: 20px;
+    background-color: #14274ecc;
+    box-shadow: 5px 5px 10px;
+}
+
+.navbar-nav li {
+    padding-right: 10px;
+}
+
+.nav-item a {
+    position: relative;
+    color: #f1f6f9;
+    font-size: 1.5em;
+    margin: 0 10px 0 10px;
+    &:hover {
+        transition: .5s ease;
+        color: #9ba4b4;
+    }
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #9ba4b4;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    background-color: #14274e;
+}
+
+.navbar-collapse {
+    text-align: center;
+    
+}
+
+.navbar .container-fluid .navbar-brand img {
+    width: 200px;
+}
