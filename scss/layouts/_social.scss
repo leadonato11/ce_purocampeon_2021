@@ -1,0 +1,28 @@
+.redes-sociales {
+    background-color: #f1f6f9;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-instagram {
+    color: #d6249f;
+}
+
+.fa-whatsapp {
+    color: #4FCE5D;
+}
+
+.fa-facebook, .fa-instagram, .fa-whatsapp {
+    transition: 0.2s ease-in-out;
+    &:hover {
+        color: #d5d5d5;
+        transform: scale(1.2,1.2);
+    }
+}

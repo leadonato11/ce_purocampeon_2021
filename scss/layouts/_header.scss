@@ -15,12 +15,15 @@
     margin: 0 10px 0 10px;
     &:hover {
         transition: .5s ease;
-        color: #9ba4b4;
+        color: #64dfdf;
     }
 }
 
+
+// Se modifica archivo de bootstrap de las siguientes clases,
+// eliminando la propiedad background-color:#e9ecef
 .dropdown-item:focus, .dropdown-item:hover {
-    color: #9ba4b4;
+    color: #64dfdf;
     text-decoration: none;
 }
 

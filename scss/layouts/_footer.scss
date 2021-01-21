@@ -1,0 +1,33 @@
+footer {
+    background-color: #252525;
+    color: #9ba4b4;
+    padding-top: 2rem;
+    a {
+        color: #9ba4b4;
+    }
+    .container-fluid .row .col-md-4 h5 {
+        font-size: 1.7em;
+    }
+}
+
+hr.light-100, hr.light {
+    border-top: 1px solid #9ba4b4;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.logo-footer {
+    width: 20em;
+    margin-top: 3em;
+}
+
+.col-12 h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    a {
+        font-family: 'Montserrat', sans-serif;
+        color: #9ba4b4;
+        text-decoration: none;
+    }
+}
