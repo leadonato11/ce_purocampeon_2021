@@ -1,6 +1,6 @@
 .main-text {
     position: absolute;
-    top: 15%;
+    top: 10%;
     width: 100%;
     color: #f1f6f9;
     text-shadow: 2px 2px 8px #000;
@@ -51,4 +51,20 @@
 .cards-profesionales {
     display: flex;
     justify-content: center;
+    color: #f1f6f9;
+}
+
+.cards-titulo {
+    color: #f1f6f9;
+    hr {
+        color: #f1f6f9;
+    }
+}
+
+.card-facundo {
+    margin-right: 30px;
+}
+
+.card-cecilia {
+    margin-left: 30px;
 }

@@ -5,7 +5,8 @@
   font-family: 'Goldman', cursive; }
 
 body {
-  background-color: #9ba4b4; }
+  background-color: #14274e;
+  background-image: url("../assets/images/principal/bg-black-orchid.png"); }
 
 .navbar {
   padding: 20px;
@@ -39,7 +40,7 @@ body {
 
 .main-text {
   position: absolute;
-  top: 15%;
+  top: 10%;
   width: 100%;
   color: #f1f6f9;
   text-shadow: 2px 2px 8px #000; }
@@ -76,29 +77,55 @@ body {
 
 .cards-profesionales {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  color: #f1f6f9; }
+
+.cards-titulo {
+  color: #f1f6f9; }
+  .cards-titulo hr {
+    color: #f1f6f9; }
+
+.card-facundo {
+  margin-right: 30px; }
+
+.card-cecilia {
+  margin-left: 30px; }
 
 .redes-sociales {
-  background-color: #f1f6f9; }
+  background-image: url("../assets/images/principal/bg-image-social.jpeg");
+  background-position-y: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 50px 0;
+  color: #f1f6f9; }
+
+.social-titulo h2 {
+  font-size: 2em; }
 
 .social a {
   font-size: 4.5em;
   padding: 3rem; }
 
 .fa-facebook {
-  color: #3b5998; }
+  transition: 0.2s ease-in-out; }
+  .fa-facebook:hover {
+    color: #3b5998;
+    transform: scale(1.2, 1.2); }
 
 .fa-instagram {
-  color: #d6249f; }
+  transition: 0.2s ease-in-out; }
+  .fa-instagram:hover {
+    color: #d6249f;
+    transform: scale(1.2, 1.2); }
 
 .fa-whatsapp {
-  color: #4FCE5D; }
+  transition: 0.2s ease-in-out; }
+  .fa-whatsapp:hover {
+    color: #4FCE5D;
+    transform: scale(1.2, 1.2); }
 
 .fa-facebook, .fa-instagram, .fa-whatsapp {
-  transition: 0.2s ease-in-out; }
-  .fa-facebook:hover, .fa-instagram:hover, .fa-whatsapp:hover {
-    color: #d5d5d5;
-    transform: scale(1.2, 1.2); }
+  color: #d5d5d5; }
 
 footer {
   background-color: #252525;
