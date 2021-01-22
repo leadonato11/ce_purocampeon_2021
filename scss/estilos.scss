@@ -1,11 +1,14 @@
+// Modifies all document
 @import "base/allreset";
 
+// Header Section
 @import "layouts/header";
 
+// Principal Layout (index.html)
 @import "views/principal";
 
-@import "layouts/social";
-
+// Footer section
 @import "layouts/footer";
 
+// Media Queries
 @import "base/mediaqueries__principal";
