@@ -25,6 +25,9 @@ body {
     transition: .5s ease;
     color: #64dfdf; }
 
+.navbar-toggler {
+  color: white; }
+
 .dropdown-item:focus, .dropdown-item:hover {
   color: #64dfdf;
   text-decoration: none; }
@@ -154,7 +157,7 @@ hr.light-100, hr.light {
     color: #9ba4b4;
     text-decoration: none; }
 
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .main-text .col-md-12 h1 {
     font-size: 2em; }
   .main-text .col-md-12 h3 {
@@ -193,3 +196,143 @@ hr.light-100, hr.light {
     font-size: .8em; }
   footer .container-fluid .row .col-12 h5 {
     margin-bottom: 1.3em; } }
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .main-text .col-md-12 h1 {
+    font-size: 4em; }
+  .main-text .col-md-12 h3 {
+    font-size: 1.5em; }
+  .main-text {
+    top: 35%; }
+  .jumbotron {
+    padding: 2em; }
+    .jumbotron h1 {
+      font-size: 2.5rem; }
+    .jumbotron .lead {
+      font-size: 1.3rem; }
+  .card-facundo, .card-cecilia {
+    margin: 0; }
+  .cards-titulo h1 {
+    font-size: 1.6rem; }
+  .social-titulo h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em; }
+  .social a {
+    font-size: 3em;
+    padding: 1rem; }
+  .fa-facebook {
+    color: #3b5998; }
+  .fa-instagram {
+    color: #d6249f; }
+  .fa-whatsapp {
+    color: #4FCE5D; }
+  .logo-footer {
+    width: 18em;
+    margin-bottom: 2em;
+    margin-top: 1em; }
+  footer .container-fluid .row .col-md-4 h5 {
+    font-size: 1.4em; }
+  footer .container-fluid .row .col-md-4 p {
+    font-size: .8em; }
+  footer .container-fluid .row .col-12 h5 {
+    margin-bottom: 1.3em; } }
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nav-bar {
+    margin-right: -2em; }
+  .main-text .col-md-12 h1 {
+    font-size: 4em; }
+  .main-text .col-md-12 h3 {
+    font-size: 1.5em; }
+  .main-text {
+    top: 35%; }
+  .jumbotron {
+    padding: 2em; }
+    .jumbotron h1 {
+      font-size: 2.5rem; }
+    .jumbotron .lead {
+      font-size: 1.3rem; }
+  .card-facundo, .card-cecilia {
+    margin: 0; }
+  .cards-titulo h1 {
+    font-size: 1.6rem; }
+  .social-titulo h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em; }
+  .social a {
+    font-size: 3em;
+    padding: 1rem; }
+  .fa-facebook {
+    color: #3b5998; }
+  .fa-instagram {
+    color: #d6249f; }
+  .fa-whatsapp {
+    color: #4FCE5D; }
+  .logo-footer {
+    width: 18em;
+    margin-bottom: 2em;
+    margin-top: 1em; }
+  footer .container-fluid .row .col-md-4 h5 {
+    font-size: 1.4em; }
+  footer .container-fluid .row .col-md-4 p {
+    font-size: .8em; }
+  footer .container-fluid .row .col-12 h5 {
+    margin-bottom: 1.3em; } }
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nav-bar {
+    margin-right: -2em; }
+  .navbar-nav {
+    font-size: .8em; }
+  .main-text .col-md-12 h1 {
+    font-size: 4em; }
+  .main-text .col-md-12 h3 {
+    font-size: 1.5em; }
+  .main-text {
+    top: 35%; }
+  .jumbotron {
+    padding: 2em; }
+    .jumbotron h1 {
+      font-size: 2.5rem; }
+    .jumbotron .lead {
+      font-size: 1.3rem; }
+  .card-facundo, .card-cecilia {
+    margin: 0; }
+  .cards-titulo h1 {
+    font-size: 1.6rem; }
+  .social-titulo h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em; }
+  .social a {
+    font-size: 3em;
+    padding: 1rem; }
+  .fa-facebook {
+    color: #3b5998; }
+  .fa-instagram {
+    color: #d6249f; }
+  .fa-whatsapp {
+    color: #4FCE5D; }
+  .logo-footer {
+    width: 18em;
+    margin-bottom: 2em;
+    margin-top: 1em; }
+  footer .container-fluid .row .col-md-4 h5 {
+    font-size: 1.4em; }
+  footer .container-fluid .row .col-md-4 p {
+    font-size: .8em; }
+  footer .container-fluid .row .col-12 h5 {
+    margin-bottom: 1.3em; } }
+
+/* No greater than 1400px, no less than 1200px */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .nav-bar {
+    margin-right: -2em; }
+  .navbar-nav {
+    font-size: .8em; }
+  .main-text .col-md-12 h1 {
+    font-size: 3em; }
+  .main-text .col-md-12 h3 {
+    font-size: 2em; } }
