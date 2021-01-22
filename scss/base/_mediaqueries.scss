@@ -1,0 +1,158 @@
+// Small devices (landscape phones, 576px and up)
+@media only screen and (max-width: 576px) {
+    .main-text .col-md-12 h1 {
+        font-size: 2em;
+    }
+    .main-text .col-md-12 h3 {
+        font-size: 0.7em;
+    }
+    
+    .main-text {
+        top: 35%;
+    }
+
+    .jumbotron {
+        padding: 2em;
+        h1 {
+            font-size: 1.5rem;
+        }
+        .lead {
+            font-size: 1rem;
+        }
+    }
+
+    .card-facundo, .card-cecilia {
+        margin: 0;
+    }
+
+    .cards-titulo h1 {
+        font-size: 1.6rem;
+    }
+
+    .social-titulo h2 {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+
+    .social a {
+        font-size: 3em;
+        padding: 1rem;
+    }
+
+    .fa-facebook {
+        color: #3b5998;
+    }
+    
+    .fa-instagram {
+        color: #d6249f;
+    }
+    
+    .fa-whatsapp {
+        color: #4FCE5D;
+    }
+
+    .logo-footer {
+        width: 18em;
+        margin-bottom: 2em;
+        margin-top: 1em;
+    }
+
+    footer .container-fluid .row .col-md-4 h5 {
+        font-size: 1.4em;
+    }
+
+    footer .container-fluid .row .col-md-4 p {
+        font-size: .8em;
+    }
+
+    footer .container-fluid .row .col-12 h5 {
+        margin-bottom: 1.3em;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+// @media only screen and (max-width: 768px) {
+//     .main-text .col-md-12 h1 {
+//         font-size: 4em;
+//     }
+//     .main-text .col-md-12 h3 {
+//         font-size: 1.5em;
+//     }
+    
+//     .main-text {
+//         top: 35%;
+//     }
+
+//     .jumbotron {
+//         padding: 2em;
+//         h1 {
+//             font-size: 2.5rem;
+//         }
+//         .lead {
+//             font-size: 1.3rem;
+//         }
+//     }
+
+//     .card-facundo, .card-cecilia {
+//         margin: 0;
+//     }
+
+//     .cards-titulo h1 {
+//         font-size: 1.6rem;
+//     }
+
+//     .social-titulo h2 {
+//         font-size: 1.2em;
+//         margin-bottom: 1em;
+//     }
+
+//     .social a {
+//         font-size: 3em;
+//         padding: 1rem;
+//     }
+
+//     .fa-facebook {
+//         color: #3b5998;
+//     }
+    
+//     .fa-instagram {
+//         color: #d6249f;
+//     }
+    
+//     .fa-whatsapp {
+//         color: #4FCE5D;
+//     }
+
+//     .logo-footer {
+//         width: 18em;
+//         margin-bottom: 2em;
+//         margin-top: 1em;
+//     }
+
+//     footer .container-fluid .row .col-md-4 h5 {
+//         font-size: 1.4em;
+//     }
+
+//     footer .container-fluid .row .col-md-4 p {
+//         font-size: .8em;
+//     }
+
+//     footer .container-fluid .row .col-12 h5 {
+//         margin-bottom: 1.3em;
+//     }
+// }
+
+// // Large devices (desktops, 992px and up)
+// @media only screen and (max-width: 992px) {
+
+// }
+
+// // X-Large devices (large desktops, 1200px and up)
+// @media only screen and (max-width: 1200px) {
+
+// }
+
+// // XX-Large devices (larger desktops, 1400px and up)
+// @media only screen and (max-width: 1400px) {
+
+// }

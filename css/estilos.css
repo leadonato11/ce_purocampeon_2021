@@ -153,3 +153,43 @@ hr.light-100, hr.light {
     font-family: 'Montserrat', sans-serif;
     color: #9ba4b4;
     text-decoration: none; }
+
+@media only screen and (max-width: 576px) {
+  .main-text .col-md-12 h1 {
+    font-size: 2em; }
+  .main-text .col-md-12 h3 {
+    font-size: 0.7em; }
+  .main-text {
+    top: 35%; }
+  .jumbotron {
+    padding: 2em; }
+    .jumbotron h1 {
+      font-size: 1.5rem; }
+    .jumbotron .lead {
+      font-size: 1rem; }
+  .card-facundo, .card-cecilia {
+    margin: 0; }
+  .cards-titulo h1 {
+    font-size: 1.6rem; }
+  .social-titulo h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em; }
+  .social a {
+    font-size: 3em;
+    padding: 1rem; }
+  .fa-facebook {
+    color: #3b5998; }
+  .fa-instagram {
+    color: #d6249f; }
+  .fa-whatsapp {
+    color: #4FCE5D; }
+  .logo-footer {
+    width: 18em;
+    margin-bottom: 2em;
+    margin-top: 1em; }
+  footer .container-fluid .row .col-md-4 h5 {
+    font-size: 1.4em; }
+  footer .container-fluid .row .col-md-4 p {
+    font-size: .8em; }
+  footer .container-fluid .row .col-12 h5 {
+    margin-bottom: 1.3em; } }
