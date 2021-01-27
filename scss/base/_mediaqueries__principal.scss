@@ -50,24 +50,6 @@
     .fa-whatsapp {
         color: #4FCE5D;
     }
-
-    .logo-footer {
-        width: 18em;
-        margin-bottom: 2em;
-        margin-top: 1em;
-    }
-
-    footer .container-fluid .row .col-md-4 h5 {
-        font-size: 1.4em;
-    }
-
-    footer .container-fluid .row .col-md-4 p {
-        font-size: .8em;
-    }
-
-    footer .container-fluid .row .col-12 h5 {
-        margin-bottom: 1.3em;
-    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -123,33 +105,11 @@
     .fa-whatsapp {
         color: #4FCE5D;
     }
-
-    .logo-footer {
-        width: 18em;
-        margin-bottom: 2em;
-        margin-top: 1em;
-    }
-
-    footer .container-fluid .row .col-md-4 h5 {
-        font-size: 1.4em;
-    }
-
-    footer .container-fluid .row .col-md-4 p {
-        font-size: .8em;
-    }
-
-    footer .container-fluid .row .col-12 h5 {
-        margin-bottom: 1.3em;
-    }
 }
 
 // Large devices (desktops, 992px and up)
 /* No greater than 992px, no less than 768px */
 @media screen and (min-width: 768px) and (max-width:992px) { 
-    .nav-bar{
-        margin-right: -2em;
-    }
-    
     .main-text .col-md-12 h1 {
         font-size: 4em;
     }
@@ -199,38 +159,12 @@
     
     .fa-whatsapp {
         color: #4FCE5D;
-    }
-
-    .logo-footer {
-        width: 18em;
-        margin-bottom: 2em;
-        margin-top: 1em;
-    }
-
-    footer .container-fluid .row .col-md-4 h5 {
-        font-size: 1.4em;
-    }
-
-    footer .container-fluid .row .col-md-4 p {
-        font-size: .8em;
-    }
-
-    footer .container-fluid .row .col-12 h5 {
-        margin-bottom: 1.3em;
     }
 }
 
 // X-Large devices (large desktops, 1200px and up)
 /* No greater than 1200px, no less than 992px */
 @media screen and (min-width: 992px) and (max-width:1200px) {
-    .nav-bar{
-        margin-right: -2em;
-    }
-
-    .navbar-nav {
-        font-size: .8em;
-    }
-    
     .main-text .col-md-12 h1 {
         font-size: 4em;
     }
@@ -281,37 +215,11 @@
     .fa-whatsapp {
         color: #4FCE5D;
     }
-
-    .logo-footer {
-        width: 18em;
-        margin-bottom: 2em;
-        margin-top: 1em;
-    }
-
-    footer .container-fluid .row .col-md-4 h5 {
-        font-size: 1.4em;
-    }
-
-    footer .container-fluid .row .col-md-4 p {
-        font-size: .8em;
-    }
-
-    footer .container-fluid .row .col-12 h5 {
-        margin-bottom: 1.3em;
-    }
 }
 
 // XX-Large devices (larger desktops, 1400px and up)
 /* No greater than 1400px, no less than 1200px */
 @media screen and (min-width: 1200px) and (max-width:1400px) {
-    .nav-bar{
-        margin-right: -2em;
-    }
-
-    .navbar-nav {
-        font-size: .8em;
-    }
-
     .main-text .col-md-12 h1 {
         font-size: 3em;
     }

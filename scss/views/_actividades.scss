@@ -1,0 +1,60 @@
+.actividades__musculacion--bg {
+    background-image: url("../assets/images/activities/bg-musculacion.jpg");
+    background-attachment: scroll;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.actividades__clases--bg {
+    background-image: url("../assets/images/activities/bg-clases.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2em;
+}
+
+.actividades__musculacion--text, .actividades__clases--text {
+    font-size: 7em;
+    padding: .5em 0 .3em 0;
+    color: #f1f6f9;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.horarios__musculacion--turnos {
+    text-align: center;
+    font-size: 2em;
+}
+
+.horarios__musculacion--info {
+    text-align: center;
+    font-size: 1em;
+}
+
+.btn_reservar_musculacion {
+    box-shadow: 2px 2px 8px #000;
+}
+
+.nav-pills__dias {
+    background-color: #14274ecc;
+    font-size: 1.5em;
+    text-align: center;
+    a {
+        color: #00587a;
+    }
+}
+
+.nav-pills .nav-link.active {
+    background-color: #e7e7de;
+    color: #0f3057;
+}
+
+.horarios__tablas {
+    background-color: rgba(0,0,0,0.3);
+    color: #e7e7de;
+}
+
+.table td, .table th {
+    padding: .75rem;
+    border-bottom: 1px solid #dee2e6;
+    font-size: 1.5em;
+    text-align: center;
+}

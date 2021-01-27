@@ -130,52 +130,133 @@ body {
 .fa-facebook, .fa-instagram, .fa-whatsapp {
   color: #d5d5d5; }
 
-.main-container__gallery {
-  background-color: whitesmoke;
+.actividades__musculacion--bg {
+  background-image: url("../assets/images/activities/bg-musculacion.jpg");
+  background-attachment: scroll;
+  margin-bottom: 0;
+  text-align: center; }
+
+.actividades__clases--bg {
+  background-image: url("../assets/images/activities/bg-clases.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2em; }
+
+.actividades__musculacion--text, .actividades__clases--text {
+  font-size: 7em;
+  padding: .5em 0 .3em 0;
+  color: #f1f6f9;
+  text-shadow: 2px 2px 8px #000; }
+
+.horarios__musculacion--turnos {
+  text-align: center;
+  font-size: 2em; }
+
+.horarios__musculacion--info {
+  text-align: center;
+  font-size: 1em; }
+
+.btn_reservar_musculacion {
+  box-shadow: 2px 2px 8px #000; }
+
+.nav-pills__dias {
+  background-color: #14274ecc;
+  font-size: 1.5em;
+  text-align: center; }
+  .nav-pills__dias a {
+    color: #00587a; }
+
+.nav-pills .nav-link.active {
+  background-color: #e7e7de;
+  color: #0f3057; }
+
+.horarios__tablas {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #e7e7de; }
+
+.table td, .table th {
+  padding: .75rem;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 1.5em;
+  text-align: center; }
+
+.galeria__contenedor {
+  padding: 0 !important;
+  margin: 0 !important; }
+
+.galeria__titulo {
+  color: white;
   margin-top: 40px;
   margin-right: 20px;
   margin-left: 20px;
   padding-bottom: 5px; }
+  .galeria__titulo h4 {
+    font-size: 3em; }
+  .galeria__titulo h1 {
+    font-size: 7em; }
 
-/* START GALLERY INDEX */
-.gallery-container {
-  margin: 20px;
-  margin-top: 0px;
-  padding: 0px 20px 20px 20px;
+.galeria__fotos {
+  box-shadow: 5px 5px 10px;
+  padding: 0;
+  margin: 1.5em 0 1.5em 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 300px;
-  grid-gap: .5px;
-  background-color: whitesmoke; }
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0px 0px;
+  grid-template-areas: "foto01 foto01 foto02 foto02 foto02" "foto03 foto03 foto03 foto04 foto05" "foto06 foto06 foto07 foto07 foto08" "foto09 foto09 foto07 foto07 foto10" "foto11 foto11 foto12 foto12 foto12"; }
 
-.gallery__item {
+.foto01 {
+  grid-area: foto01; }
+
+.foto02 {
+  grid-area: foto02; }
+
+.foto03 {
+  grid-area: foto03; }
+
+.foto04 {
+  grid-area: foto04; }
+
+.foto05 {
+  grid-area: foto05; }
+
+.foto06 {
+  grid-area: foto06; }
+
+.foto08 {
+  grid-area: foto08; }
+
+.foto09 {
+  grid-area: foto09; }
+
+.foto07 {
+  grid-area: foto07; }
+
+.foto10 {
+  grid-area: foto10; }
+
+.foto11 {
+  grid-area: foto11; }
+
+.foto12 {
+  grid-area: foto12; }
+
+.galeria__item {
   width: 100%;
   height: 100%;
   display: flex;
   overflow: hidden; }
+  .galeria__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    filter: grayscale(100%);
+    transition: 1s; }
+    .galeria__item img:hover {
+      filter: grayscale(0%);
+      transform: scale(1.1); }
 
-.gallery__item:nth-child(1) {
-  grid-row-start: span 2; }
-
-.gallery__item:nth-child(5) {
-  grid-row-start: span 2; }
-
-.gallery__item:nth-child(9) {
-  grid-column-start: span 2; }
-
-.gallery__item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-  filter: brightness(100%);
-  transition: 1s; }
-
-.gallery__item img:hover {
-  filter: brightness(40%);
-  transform: scale(1.2); }
-
-/* END GALLERY INDEX */
 footer {
   background-color: #252525;
   color: #9ba4b4;
@@ -202,6 +283,25 @@ hr.light-100, hr.light {
     font-family: 'Montserrat', sans-serif;
     color: #9ba4b4;
     text-decoration: none; }
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nav-bar {
+    margin-right: -2em; } }
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nav-bar {
+    margin-right: -2em; }
+  .navbar-nav {
+    font-size: 12px; } }
+
+/* No greater than 1400px, no less than 1200px */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .nav-bar {
+    margin-right: -2em; }
+  .navbar-nav {
+    font-size: .8em; } }
 
 @media screen and (max-width: 576px) {
   .main-text .col-md-12 h1 {
@@ -231,17 +331,7 @@ hr.light-100, hr.light {
   .fa-instagram {
     color: #d6249f; }
   .fa-whatsapp {
-    color: #4FCE5D; }
-  .logo-footer {
-    width: 18em;
-    margin-bottom: 2em;
-    margin-top: 1em; }
-  footer .container-fluid .row .col-md-4 h5 {
-    font-size: 1.4em; }
-  footer .container-fluid .row .col-md-4 p {
-    font-size: .8em; }
-  footer .container-fluid .row .col-12 h5 {
-    margin-bottom: 1.3em; } }
+    color: #4FCE5D; } }
 
 /* No greater than 768px, no less than 576px */
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -272,7 +362,142 @@ hr.light-100, hr.light {
   .fa-instagram {
     color: #d6249f; }
   .fa-whatsapp {
-    color: #4FCE5D; }
+    color: #4FCE5D; } }
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .main-text .col-md-12 h1 {
+    font-size: 4em; }
+  .main-text .col-md-12 h3 {
+    font-size: 1.5em; }
+  .main-text {
+    top: 35%; }
+  .jumbotron {
+    padding: 2em; }
+    .jumbotron h1 {
+      font-size: 2.5rem; }
+    .jumbotron .lead {
+      font-size: 1.3rem; }
+  .card-facundo, .card-cecilia {
+    margin: 0; }
+  .cards-titulo h1 {
+    font-size: 1.6rem; }
+  .social-titulo h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em; }
+  .social a {
+    font-size: 3em;
+    padding: 1rem; }
+  .fa-facebook {
+    color: #3b5998; }
+  .fa-instagram {
+    color: #d6249f; }
+  .fa-whatsapp {
+    color: #4FCE5D; } }
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .main-text .col-md-12 h1 {
+    font-size: 4em; }
+  .main-text .col-md-12 h3 {
+    font-size: 1.5em; }
+  .main-text {
+    top: 35%; }
+  .jumbotron {
+    padding: 2em; }
+    .jumbotron h1 {
+      font-size: 2.5rem; }
+    .jumbotron .lead {
+      font-size: 1.3rem; }
+  .card-facundo, .card-cecilia {
+    margin: 0; }
+  .cards-titulo h1 {
+    font-size: 1.6rem; }
+  .social-titulo h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em; }
+  .social a {
+    font-size: 3em;
+    padding: 1rem; }
+  .fa-facebook {
+    color: #3b5998; }
+  .fa-instagram {
+    color: #d6249f; }
+  .fa-whatsapp {
+    color: #4FCE5D; } }
+
+/* No greater than 1400px, no less than 1200px */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .main-text .col-md-12 h1 {
+    font-size: 3em; }
+  .main-text .col-md-12 h3 {
+    font-size: 2em; } }
+
+@media screen and (max-width: 576px) {
+  .galeria__titulo {
+    margin-top: 20px; }
+    .galeria__titulo h4 {
+      font-size: 1em; }
+    .galeria__titulo h1 {
+      font-size: 2.5em; }
+  .galeria__fotos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "foto01 foto01" "foto01 foto01" "foto02 foto04" "foto06 foto06" "foto03 foto03" "foto05 foto05" "foto05 foto05" "foto08 foto09" "foto07 foto07" "foto07 foto07" "foto11 foto11" "foto10 foto10" "foto10 foto10" "foto12 foto12"; } }
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .galeria__titulo {
+    margin-top: 30px; }
+    .galeria__titulo h4 {
+      font-size: 1.6em; }
+    .galeria__titulo h1 {
+      font-size: 4em; }
+  .galeria__fotos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "foto01 foto01" "foto01 foto01" "foto02 foto04" "foto06 foto06" "foto03 foto03" "foto05 foto05" "foto05 foto05" "foto08 foto09" "foto07 foto07" "foto07 foto07" "foto11 foto11" "foto10 foto10" "foto10 foto10" "foto12 foto12"; } }
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .galeria__titulo {
+    margin-top: 30px; }
+    .galeria__titulo h4 {
+      font-size: 2em; }
+    .galeria__titulo h1 {
+      font-size: 5em; }
+  .galeria__fotos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "foto01 foto01" "foto01 foto01" "foto02 foto04" "foto06 foto06" "foto03 foto03" "foto05 foto05" "foto05 foto05" "foto08 foto09" "foto07 foto07" "foto07 foto07" "foto11 foto11" "foto10 foto10" "foto10 foto10" "foto12 foto12"; } }
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .galeria__titulo {
+    margin-top: 30px; }
+    .galeria__titulo h4 {
+      font-size: 2em; }
+    .galeria__titulo h1 {
+      font-size: 5em; }
+  .galeria__fotos {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas: "foto01 foto01 foto01 foto02 foto02" "foto03 foto03 foto03 foto03 foto03" "foto06 foto06 foto06 foto04 foto04" "foto05 foto05 foto05 foto05 foto05" "foto07 foto07 foto07 foto08 foto08" "foto07 foto07 foto07 foto08 foto08" "foto11 foto11 foto11 foto11 foto11" "foto11 foto11 foto11 foto11 foto11" "foto10 foto10 foto09 foto09 foto09" "foto12 foto12 foto12 foto12 foto12"; } }
+
+@media screen and (max-width: 576px) {
+  .logo-footer {
+    width: 18em;
+    margin-bottom: 2em;
+    margin-top: 1em; }
+  footer .container-fluid .row .col-md-4 h5 {
+    font-size: 1.4em; }
+  footer .container-fluid .row .col-md-4 p {
+    font-size: .8em; }
+  footer .container-fluid .row .col-12 h5 {
+    margin-bottom: 1.3em; } }
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
   .logo-footer {
     width: 18em;
     margin-bottom: 2em;
@@ -286,36 +511,6 @@ hr.light-100, hr.light {
 
 /* No greater than 992px, no less than 768px */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .nav-bar {
-    margin-right: -2em; }
-  .main-text .col-md-12 h1 {
-    font-size: 4em; }
-  .main-text .col-md-12 h3 {
-    font-size: 1.5em; }
-  .main-text {
-    top: 35%; }
-  .jumbotron {
-    padding: 2em; }
-    .jumbotron h1 {
-      font-size: 2.5rem; }
-    .jumbotron .lead {
-      font-size: 1.3rem; }
-  .card-facundo, .card-cecilia {
-    margin: 0; }
-  .cards-titulo h1 {
-    font-size: 1.6rem; }
-  .social-titulo h2 {
-    font-size: 1.2em;
-    margin-bottom: 1em; }
-  .social a {
-    font-size: 3em;
-    padding: 1rem; }
-  .fa-facebook {
-    color: #3b5998; }
-  .fa-instagram {
-    color: #d6249f; }
-  .fa-whatsapp {
-    color: #4FCE5D; }
   .logo-footer {
     width: 18em;
     margin-bottom: 2em;
@@ -329,38 +524,6 @@ hr.light-100, hr.light {
 
 /* No greater than 1200px, no less than 992px */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  .nav-bar {
-    margin-right: -2em; }
-  .navbar-nav {
-    font-size: .8em; }
-  .main-text .col-md-12 h1 {
-    font-size: 4em; }
-  .main-text .col-md-12 h3 {
-    font-size: 1.5em; }
-  .main-text {
-    top: 35%; }
-  .jumbotron {
-    padding: 2em; }
-    .jumbotron h1 {
-      font-size: 2.5rem; }
-    .jumbotron .lead {
-      font-size: 1.3rem; }
-  .card-facundo, .card-cecilia {
-    margin: 0; }
-  .cards-titulo h1 {
-    font-size: 1.6rem; }
-  .social-titulo h2 {
-    font-size: 1.2em;
-    margin-bottom: 1em; }
-  .social a {
-    font-size: 3em;
-    padding: 1rem; }
-  .fa-facebook {
-    color: #3b5998; }
-  .fa-instagram {
-    color: #d6249f; }
-  .fa-whatsapp {
-    color: #4FCE5D; }
   .logo-footer {
     width: 18em;
     margin-bottom: 2em;
@@ -371,14 +534,3 @@ hr.light-100, hr.light {
     font-size: .8em; }
   footer .container-fluid .row .col-12 h5 {
     margin-bottom: 1.3em; } }
-
-/* No greater than 1400px, no less than 1200px */
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
-  .nav-bar {
-    margin-right: -2em; }
-  .navbar-nav {
-    font-size: .8em; }
-  .main-text .col-md-12 h1 {
-    font-size: 3em; }
-  .main-text .col-md-12 h3 {
-    font-size: 2em; } }

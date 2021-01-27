@@ -1,0 +1,126 @@
+// Small devices (landscape phones, 576px and up)
+@media screen and (max-width: 576px) {
+    .galeria__titulo {
+        margin-top: 20px;
+        h4 {
+            font-size: 1em;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+    }
+    .galeria__fotos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "foto01 foto01"
+        "foto01 foto01"
+        "foto02 foto04"
+        "foto06 foto06"
+        "foto03 foto03"
+        "foto05 foto05"
+        "foto05 foto05"
+        "foto08 foto09"
+        "foto07 foto07"
+        "foto07 foto07"
+        "foto11 foto11"
+        "foto10 foto10"
+        "foto10 foto10"
+        "foto12 foto12";
+      }
+}
+
+// Medium devices (tablets, 768px and up)
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width:768px) {
+    .galeria__titulo {
+        margin-top: 30px;
+        h4 {
+            font-size: 1.6em;
+        }
+        h1 {
+            font-size: 4em;
+        }
+    }
+    .galeria__fotos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "foto01 foto01"
+        "foto01 foto01"
+        "foto02 foto04"
+        "foto06 foto06"
+        "foto03 foto03"
+        "foto05 foto05"
+        "foto05 foto05"
+        "foto08 foto09"
+        "foto07 foto07"
+        "foto07 foto07"
+        "foto11 foto11"
+        "foto10 foto10"
+        "foto10 foto10"
+        "foto12 foto12";
+      }
+}
+
+// Large devices (desktops, 992px and up)
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width:992px) { 
+    .galeria__titulo {
+        margin-top: 30px;
+        h4 {
+            font-size: 2em;
+        }
+        h1 {
+            font-size: 5em;
+        }
+    }
+    .galeria__fotos {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "foto01 foto01"
+        "foto01 foto01"
+        "foto02 foto04"
+        "foto06 foto06"
+        "foto03 foto03"
+        "foto05 foto05"
+        "foto05 foto05"
+        "foto08 foto09"
+        "foto07 foto07"
+        "foto07 foto07"
+        "foto11 foto11"
+        "foto10 foto10"
+        "foto10 foto10"
+        "foto12 foto12";
+      }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .galeria__titulo {
+        margin-top: 30px;
+        h4 {
+            font-size: 2em;
+        }
+        h1 {
+            font-size: 5em;
+        }
+    }
+    .galeria__fotos {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-areas:
+        "foto01 foto01 foto01 foto02 foto02"
+        "foto03 foto03 foto03 foto03 foto03"
+        "foto06 foto06 foto06 foto04 foto04"
+        "foto05 foto05 foto05 foto05 foto05"
+        "foto07 foto07 foto07 foto08 foto08"
+        "foto07 foto07 foto07 foto08 foto08"
+        "foto11 foto11 foto11 foto11 foto11"
+        "foto11 foto11 foto11 foto11 foto11"
+        "foto10 foto10 foto09 foto09 foto09"
+        "foto12 foto12 foto12 foto12 foto12";
+    }
+}

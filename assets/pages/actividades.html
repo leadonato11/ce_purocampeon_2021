@@ -57,15 +57,16 @@
 
   <!-- Musculacion section -->
   <section class="musculacion">
-    <div class="container-fluid actividades__musculacion">
-      <div class="jumbotron">
-        <h1 class="display-4 text-center">Musculación</h1>
-        <p class="lead">Lunes a Viernes (primer turno) de 7:30hs a 11:30hs</p>
-        <p class="lead">Lunes a Viernes (segundo turno) de 14:00hs a 22:00hs</p>
-        <p class="lead">Sábados (único turno) de 7:30hs a 11:30hs</p>
-        <hr class="my-4">
-        <p>¡Reservá tu horario con anticipación!</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Reservar</a>
+    <div class="actividades__musculacion">
+      <div class="jumbotron actividades__musculacion--bg">
+        <h1 class="text-center actividades__musculacion--text">Musculación</h1>
+        <div class="horarios__musculacion--turnos">
+          <p class="horarios__musculacion">Lunes a Viernes (primer turno) de 7:30hs a 11:30hs</p>
+          <p class="horarios__musculacion">Lunes a Viernes (segundo turno) de 14:00hs a 22:00hs</p>
+          <p class="horarios__musculacion">Sábados (único turno) de 7:30hs a 11:30hs</p>
+        </div>
+        <p class="horarios__musculacion--info">¡Reservá tu horario con anticipación!</p>
+        <a class="btn btn-primary btn-lg btn_reservar_musculacion" href="#" role="button">Reservar</a>
       </div>
     </div>
   </section>
@@ -73,11 +74,11 @@
 
   <!-- Clases section -->
   <section class="clases">
-    <div class="container-fluid actividades__clases">
-      <h1 class="display-4 text-center text-white">Clases</h1>
+    <div class="actividades__clases--bg">
+      <h1 class="text-center actividades__clases--text">Clases</h1>
       <div class="row">
         <div class="col-3 actividades__tabs">
-          <div class="nav flex-column nav-pills" id="actividades_tabs" role="tablist" aria-orientation="vertical">
+          <div class="nav flex-column nav-pills nav-pills__dias" id="actividades_tabs" role="tablist" aria-orientation="vertical">
             <a class="nav-link active" id="actividades-lunes-tab" data-toggle="pill" href="#actividades-lunes" role="tab" aria-controls="actividades-lunes" aria-selected="true">
               Lunes
             </a>
@@ -96,10 +97,10 @@
           </div>
 
         </div>
-        <div class="col-9">
+        <div class="col-9 ">
           <div class="tab-content" id="actividades_tabsContent">
             <div class="tab-pane fade show active" id="actividades-lunes" role="tabpanel" aria-labelledby="actividades-lunes-tab">
-              <table class="table table-hover bg-dark text-white">
+              <table class="table horarios__tablas">
                 <tbody>
                   <tr>
                     <th scope="row">08:00</th>
@@ -125,7 +126,7 @@
               </table>
             </div>
             <div class="tab-pane fade" id="actividades-martes" role="tabpanel" aria-labelledby="actividades-martes-tab">
-              <table class="table table-hover bg-dark text-white">
+              <table class="table horarios__tablas">
                 <tbody>
                   <tr>
                     <th scope="row">19:00</th>
@@ -141,7 +142,7 @@
               </table>
             </div>
             <div class="tab-pane fade" id="actividades-miercoles" role="tabpanel" aria-labelledby="actividades-miercoles-tab">
-              <table class="table table-hover bg-dark text-white">
+              <table class="table horarios__tablas">
                 <tbody>
                   <tr>
                     <th scope="row">08:00</th>
@@ -167,7 +168,7 @@
               </table>
             </div>
             <div class="tab-pane fade" id="actividades-jueves" role="tabpanel" aria-labelledby="actividades-jueves-tab">
-              <table class="table table-hover bg-dark text-white">
+              <table class="table horarios__tablas">
                 <tbody>
                   <tr>
                     <th scope="row">19:00</th>
@@ -183,7 +184,7 @@
               </table>
             </div>
             <div class="tab-pane fade" id="actividades-viernes" role="tabpanel" aria-labelledby="actividades-viernes-tab">
-              <table class="table table-hover bg-dark text-white">
+              <table class="table horarios__tablas">
                 <tbody>
                   <tr>
                     <th scope="row">08:00</th>
