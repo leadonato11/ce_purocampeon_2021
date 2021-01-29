@@ -257,6 +257,85 @@ body {
       filter: grayscale(0%);
       transform: scale(1.1); }
 
+.nosotros__facu {
+  background-image: url("../assets/images/us_facundo/bg-biofacu.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.biofacu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.biofacu__fotos {
+  margin: 5em; }
+
+.biofacu__textos {
+  margin-right: 5em; }
+
+.biofacu__textos--presentacion {
+  margin-top: 5em;
+  padding: 5em;
+  text-align: justify; }
+  .biofacu__textos--presentacion h1 {
+    margin-bottom: .3em;
+    text-align: center;
+    font-size: 5em;
+    color: #f1f6f9;
+    text-shadow: 2px 2px 8px #000; }
+  .biofacu__textos--presentacion p {
+    font-size: 1.4em;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #f1f6f9; }
+
+.logros__historial {
+  justify-content: center; }
+
+.biofacu__textos--logros {
+  margin-top: 15em;
+  text-align: justify;
+  padding-top: 5em;
+  padding-bottom: 3em; }
+  .biofacu__textos--logros h3 {
+    text-align: center;
+    font-size: 3em;
+    color: #f1f6f9;
+    text-shadow: 2px 2px 8px #000;
+    margin-bottom: 2em; }
+
+.card__biofacu--logros {
+  display: flex;
+  justify-content: center;
+  color: #f1f6f9;
+  border: none; }
+
+.card-img {
+  width: 100%;
+  text-align: center; }
+  .card-img img {
+    width: 50%; }
+
+.card-biofacu__desc-logro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .8em;
+  text-align: center; }
+
+.biofacu__textos--frasefinal {
+  background-color: #11698e;
+  text-align: center;
+  padding: 5em;
+  font-style: italic; }
+  .biofacu__textos--frasefinal h3 {
+    color: #f7f7e8;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif; }
+  .biofacu__textos--frasefinal p {
+    color: #f7f7e8;
+    text-align: center;
+    font-size: .8em;
+    font-family: 'Montserrat', sans-serif; }
+
 footer {
   background-color: #252525;
   color: #9ba4b4;
