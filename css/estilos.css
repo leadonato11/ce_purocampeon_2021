@@ -1039,7 +1039,7 @@ hr.light-100, hr.light {
 
 /* No greater than 1200px, no less than 992px */
 @media screen and (min-width: 1200px) {
-  img {
+  .img-contacto {
     width: 35em; }
   .container {
     justify-content: space-around;
