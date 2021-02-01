@@ -56,25 +56,24 @@
 <!-- End Navigation -->
 
 <!-- Contact form -->
-    <div class="container-fluid padding d-flex justify-content-center">
-        <div class="row bg-light">
-            <div class="form-container">
-                <form action="">
-                    <fieldset>
-                        <legend>Completá el formulario</legend>
-                
-                        <div class="form-group">
-                                <label for="name">Nombre y Apellido</label>
-                                <input type="text" class="form-control" required>
-                        </div>
-                        <div class="form-group">
+    <div class="container">
+        <div class="form-container bg-formulario">
+            <form action="">
+                <fieldset>
+                    <legend>Escribinos!</legend>
+            
+                    <div class="form-group">
+                        <label for="name">Nombre y apellido</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group">
                         <label for="email">Correo electrónico</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" required>
-                        </div>
-                        <div class="form-group">
+                    </div>
+                    <div class="form-group">
                         <label for="asunto">Asunto</label>
                         <select class="custom-select" required>
-                            <option selected disabled>Elije un asunto</option>
+                            <option class="seleccionada" selected disabled>Elije un asunto</option>
                             <option value="clases">Clases</option>
                             <option value="musculacion">Musculación</option>
                             <option value="eventos">Eventos</option>
@@ -82,17 +81,19 @@
                             <option value="rrhh">Quiero ser profe en Puro Campeón</option>
                             <option value="generales">Consultas generales</option>
                         </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Tu mensaje:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje..." rows="3"></textarea>
-                        </div>
-                        <div class="btn-submit-enviar">
-                            <button type="submit" class="btn btn-primary w-100">Enviar</button>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Tu mensaje:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe tu mensaje..." rows="3"></textarea>
+                    </div>
+                    <div class="btn-submit-enviar">
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="foto-contacto">
+            <img src="../images/contact/contacto-foto-lateral.png">
         </div>
     </div>
 <!-- End contact form -->
