@@ -263,52 +263,65 @@ body {
   background-repeat: no-repeat;
   background-size: 100%; }
 
-.biofacu-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-.biofacu__fotos {
-  margin: 5em; }
-
-.biofacu__textos {
-  margin-right: 5em; }
-
 .biofacu__textos--presentacion {
-  margin-top: 5em;
   padding: 5em;
   text-align: justify; }
   .biofacu__textos--presentacion h1 {
     margin-bottom: .3em;
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     color: #f1f6f9;
     text-shadow: 2px 2px 8px #000; }
   .biofacu__textos--presentacion p {
-    font-size: 1.4em;
+    font-size: 1em;
     font-family: 'Montserrat', sans-serif !important;
-    color: #f1f6f9; }
-
-.logros__historial {
-  justify-content: center; }
-
-.biofacu__textos--logros {
-  margin-top: 15em;
-  text-align: justify;
-  padding-top: 5em;
-  padding-bottom: 3em; }
-  .biofacu__textos--logros h3 {
-    text-align: center;
-    font-size: 3em;
     color: #f1f6f9;
-    text-shadow: 2px 2px 8px #000;
-    margin-bottom: 2em; }
+    padding-right: 4em;
+    padding-left: 4em; }
+
+.logros-bioFacu__titulo {
+  width: 100%;
+  padding: 5em;
+  text-align: center; }
+  .logros-bioFacu__titulo h3 {
+    font-size: 4em;
+    color: #f1f6f9;
+    text-shadow: 2px 2px 8px #000; }
+
+.logros-bioFacu__nacionales-historico-titulo {
+  width: 100%;
+  padding: 5em;
+  text-align: center;
+  background-image: url("../assets/images/us_facundo/bg-logros-nacionales.jpg");
+  background-attachment: fixed;
+  background-size: cover; }
+  .logros-bioFacu__nacionales-historico-titulo h1 {
+    color: #f1f6f9;
+    text-shadow: 2px 2px 8px #000; }
+
+.logros__historial-nacional, .logros__historial-internacional {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5em; }
+
+.logros-bioFacu__internacionales-historico-titulo {
+  width: 100%;
+  padding: 5em;
+  text-align: center;
+  background-image: url("../assets/images/us_facundo/bg-logros-internacionales.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 30%; }
+  .logros-bioFacu__internacionales-historico-titulo h1 {
+    color: #f1f6f9;
+    text-shadow: 2px 2px 8px #000; }
 
 .card__biofacu--logros {
-  display: flex;
-  justify-content: center;
-  color: #f1f6f9;
-  border: none; }
+  border: none;
+  width: 15rem; }
 
 .card-img {
   width: 100%;
@@ -318,7 +331,8 @@ body {
 
 .card-biofacu__desc-logro {
   font-family: 'Montserrat', sans-serif;
-  font-size: .8em;
+  color: #f1f6f9;
+  font-size: .9em;
   text-align: center; }
 
 .biofacu__textos--frasefinal {
