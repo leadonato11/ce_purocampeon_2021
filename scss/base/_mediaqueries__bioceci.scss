@@ -1,0 +1,164 @@
+// Small devices (landscape phones, 576px and up)
+/* No greater than 576px */
+@media screen and (max-width: 576px) {
+    .nosotros__ceci {
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 62%;
+        padding: 1em;
+    }
+    
+    .bioceci__textos--presentacion {
+        padding: 1em;
+        h1 {
+            margin-bottom: 1em;
+            font-size: 2em;
+        }
+        p {
+            font-size: .7em;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+    }
+
+    .carrera-bioceci__titulo {
+        padding: 2em;
+        h3 {
+            font-size: 1.5em;
+        }
+    }
+
+    .bioceci__textos--frasefinal {
+        padding: 2em;
+        h3 {
+            font-size: 1.3em;
+        }
+        p {
+            font-size: .5em;
+            margin-bottom: 0;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width:768px) {
+    .nosotros__ceci {
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 62%;
+        padding: 1em;
+    }
+    
+    .bioceci__textos--presentacion {
+        padding: 1em;
+        h1 {
+            margin-bottom: .5em;
+            font-size: 3em;
+        }
+        p {
+            font-size: .9em;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+    }
+
+    .carrera-bioceci__titulo {
+        padding: 2em;
+        h3 {
+            font-size: 2em;
+        }
+    }
+
+    .bioceci__textos--frasefinal {
+        padding: 2em;
+        h3 {
+            font-size: 1.3em;
+        }
+        p {
+            font-size: .5em;
+            margin-bottom: 0;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width:992px) { 
+    .nosotros__ceci {
+        padding: 3em;
+    }
+    
+    .bioceci__textos--presentacion {
+        padding: 1em;
+        h1 {
+            margin-bottom: .5em;
+            font-size: 3em;
+        }
+        p {
+            font-size: .9em;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+    }
+
+    .carrera-bioceci__titulo {
+        padding: 3em;
+        h3 {
+            font-size: 2.5em;
+        }
+    }
+
+    .bioceci__textos--frasefinal {
+        padding: 2em;
+        h3 {
+            font-size: 1.3em;
+        }
+        p {
+            font-size: .5em;
+            margin-bottom: 0;
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .nosotros__ceci {
+        padding: 6em;
+        background-position-x: 50%;
+    }
+    
+    .bioceci__textos--presentacion {
+        padding: 1em;
+        h1 {
+            margin-bottom: .5em;
+            font-size: 5em;
+        }
+        p {
+            font-size: .9em;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+    }
+
+    .carrera-bioceci__titulo {
+        padding: 4em;
+        h3 {
+            font-size: 3em;
+        }
+    }
+
+    .bioceci__textos--frasefinal {
+        padding: 4em;
+        h3 {
+            font-size: 2em;
+        }
+        p {
+            font-size: 1em;
+            margin-bottom: 0;
+        }
+    }
+}

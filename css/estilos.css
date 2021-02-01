@@ -132,7 +132,8 @@ body {
 
 .actividades__musculacion--bg {
   background-image: url("../assets/images/activities/bg-musculacion.jpg");
-  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-bottom: 0;
   text-align: center; }
 
@@ -151,10 +152,13 @@ body {
 .horarios__musculacion--turnos {
   text-align: center;
   font-size: 2em; }
+  .horarios__musculacion--turnos p {
+    font-family: 'Montserrat', sans-serif; }
 
 .horarios__musculacion--info {
   text-align: center;
-  font-size: 1em; }
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif; }
 
 .btn_reservar_musculacion {
   box-shadow: 2px 2px 8px #000; }
@@ -409,7 +413,7 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin-top: 2em;
   margin-bottom: 2em; }
@@ -486,7 +490,7 @@ hr.light-100, hr.light {
     top: 35%; }
   .jumbotron {
     padding: 2em; }
-    .jumbotron h1 {
+    .jumbotron .titulo_jumbotron {
       font-size: 1.5rem; }
     .jumbotron .lead {
       font-size: 1rem; }
@@ -607,6 +611,86 @@ hr.light-100, hr.light {
   .main-text .col-md-12 h3 {
     font-size: 2em; } }
 
+/* No greater than 576px */
+@media screen and (max-width: 576px) {
+  .actividades__musculacion--bg {
+    background-position-x: 50%; }
+  .actividades__musculacion--text, .actividades__clases--text {
+    font-size: 3em;
+    padding-top: .5em; }
+  .horarios__musculacion--turnos {
+    text-align: center;
+    font-size: .7em; }
+  .horarios__musculacion--info {
+    font-size: .5em; }
+  .btn_reservar_musculacion, .btn_reservar_clases {
+    font-size: .8em; }
+  .horarios__tablas {
+    margin-top: 1em; }
+    .horarios__tablas th, .horarios__tablas td {
+      font-size: 1em;
+      padding: .6em; } }
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .actividades__musculacion--bg {
+    background-position-x: 42%; }
+  .actividades__musculacion--text, .actividades__clases--text {
+    font-size: 3.5em !important;
+    padding-top: .5em; }
+  .horarios__musculacion--turnos {
+    text-align: center;
+    font-size: 1em; }
+  .horarios__musculacion--info {
+    font-size: .8em; }
+  .btn_reservar_musculacion, .btn_reservar_clases {
+    font-size: .8em; }
+  .horarios__tablas {
+    margin-top: 1em; }
+    .horarios__tablas th, .horarios__tablas td {
+      font-size: 1em;
+      padding: .6em; } }
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .actividades__musculacion--bg {
+    background-position-x: 42%; }
+  .actividades__musculacion--text, .actividades__clases--text {
+    font-size: 3.5em !important;
+    padding-top: .5em; }
+  .horarios__musculacion--turnos {
+    text-align: center;
+    font-size: 1em; }
+  .horarios__musculacion--info {
+    font-size: .8em; }
+  .btn_reservar_musculacion, .btn_reservar_clases {
+    font-size: .8em; }
+  .horarios__tablas {
+    margin-top: 1em; }
+    .horarios__tablas th, .horarios__tablas td {
+      font-size: 1em;
+      padding: .6em; } }
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .actividades__musculacion--bg {
+    background-position-x: 42%; }
+  .actividades__musculacion--text, .actividades__clases--text {
+    font-size: 5em !important;
+    padding-top: .5em; }
+  .horarios__musculacion--turnos {
+    text-align: center;
+    font-size: 1.5em; }
+  .horarios__musculacion--info {
+    font-size: 1em; }
+  .btn_reservar_musculacion, .btn_reservar_clases {
+    font-size: 1em; }
+  .horarios__tablas {
+    margin-top: 1em; }
+    .horarios__tablas th, .horarios__tablas td {
+      font-size: 1.3em;
+      padding: .6em; } }
+
 @media screen and (max-width: 576px) {
   .galeria__titulo {
     margin-top: 20px; }
@@ -658,6 +742,309 @@ hr.light-100, hr.light {
     grid-template-rows: repeat(10, 1fr);
     grid-template-areas: "foto01 foto01 foto01 foto02 foto02" "foto03 foto03 foto03 foto03 foto03" "foto06 foto06 foto06 foto04 foto04" "foto05 foto05 foto05 foto05 foto05" "foto07 foto07 foto07 foto08 foto08" "foto07 foto07 foto07 foto08 foto08" "foto11 foto11 foto11 foto11 foto11" "foto11 foto11 foto11 foto11 foto11" "foto10 foto10 foto09 foto09 foto09" "foto12 foto12 foto12 foto12 foto12"; } }
 
+/* No greater than 576px */
+@media screen and (max-width: 576px) {
+  .nosotros__facu {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 62%;
+    padding: 1em; }
+  .biofacu__textos--presentacion {
+    padding: 1em; }
+    .biofacu__textos--presentacion h1 {
+      margin-bottom: 1em;
+      font-size: 2em; }
+    .biofacu__textos--presentacion p {
+      font-size: .7em;
+      padding-right: 1em;
+      padding-left: 1em; }
+  .logros-bioFacu__titulo {
+    padding: 1em; }
+    .logros-bioFacu__titulo h3 {
+      font-size: 2em; }
+  .logros-bioFacu__nacionales-historico-titulo {
+    padding: 2em;
+    background-position-x: 44%; }
+    .logros-bioFacu__nacionales-historico-titulo h1 {
+      font-size: 2em; }
+  .logros__historial-nacional, .logros__historial-internacional {
+    padding: 2em; }
+  .card__biofacu--logros {
+    width: 9em; }
+  .card-biofacu__desc-logro {
+    font-size: 0.6em; }
+  .logros-bioFacu__internacionales-historico-titulo {
+    padding: 1em;
+    background-position-y: 30%; }
+    .logros-bioFacu__internacionales-historico-titulo h1 {
+      font-size: 2em; }
+  .biofacu__textos--frasefinal {
+    padding: 2em; }
+    .biofacu__textos--frasefinal h3 {
+      font-size: 1.5em; }
+    .biofacu__textos--frasefinal p {
+      font-size: .5em; } }
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .nosotros__facu {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 62%;
+    padding: 1em; }
+  .biofacu__textos--presentacion {
+    padding: 1em; }
+    .biofacu__textos--presentacion h1 {
+      margin-bottom: .5em;
+      font-size: 3em; }
+    .biofacu__textos--presentacion p {
+      font-size: 1em;
+      padding-right: 1em;
+      padding-left: 1em; }
+  .logros-bioFacu__titulo {
+    padding: 3em; }
+    .logros-bioFacu__titulo h3 {
+      font-size: 2em; }
+  .logros-bioFacu__nacionales-historico-titulo {
+    padding: 2em;
+    background-position-x: 44%; }
+    .logros-bioFacu__nacionales-historico-titulo h1 {
+      font-size: 3em; }
+  .logros__historial-nacional, .logros__historial-internacional {
+    padding: 2em; }
+  .card-img img {
+    width: 80%; }
+  .card__biofacu--logros {
+    width: 8em; }
+  .card-biofacu__desc-logro {
+    font-size: 0.6em; }
+  .logros-bioFacu__internacionales-historico-titulo {
+    padding: 2em;
+    background-position-x: -30%; }
+    .logros-bioFacu__internacionales-historico-titulo h1 {
+      font-size: 3em; }
+  .biofacu__textos--frasefinal {
+    padding: 2em; }
+    .biofacu__textos--frasefinal h3 {
+      font-size: 1.5em; }
+    .biofacu__textos--frasefinal p {
+      font-size: .5em; } }
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nosotros__facu {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 62%;
+    padding: 1em; }
+  .biofacu__textos--presentacion {
+    padding: 1em; }
+    .biofacu__textos--presentacion h1 {
+      margin-bottom: 1em;
+      font-size: 3em; }
+    .biofacu__textos--presentacion p {
+      font-size: 1em;
+      padding-right: 1em;
+      padding-left: 1em; }
+  .logros-bioFacu__titulo {
+    padding: 3em; }
+    .logros-bioFacu__titulo h3 {
+      font-size: 2em; }
+  .logros-bioFacu__nacionales-historico-titulo {
+    padding: 2em;
+    background-position-x: 44%; }
+    .logros-bioFacu__nacionales-historico-titulo h1 {
+      font-size: 3em; }
+  .logros__historial-nacional, .logros__historial-internacional {
+    padding: 2em; }
+  .card-img img {
+    width: 80%; }
+  .card__biofacu--logros {
+    width: 8em; }
+  .card-biofacu__desc-logro {
+    font-size: 0.6em; }
+  .logros-bioFacu__internacionales-historico-titulo {
+    padding: 2em;
+    background-position-x: -30%; }
+    .logros-bioFacu__internacionales-historico-titulo h1 {
+      font-size: 3em; }
+  .biofacu__textos--frasefinal {
+    padding: 2em; }
+    .biofacu__textos--frasefinal h3 {
+      font-size: 1.5em; }
+    .biofacu__textos--frasefinal p {
+      font-size: .5em; } }
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nosotros__facu {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10em; }
+  .biofacu__textos--presentacion {
+    padding: 1em; }
+    .biofacu__textos--presentacion h1 {
+      margin-bottom: 1em;
+      font-size: 3em; }
+    .biofacu__textos--presentacion p {
+      font-size: 1em;
+      padding-right: 1em;
+      padding-left: 1em; }
+  .logros-bioFacu__titulo {
+    padding: 6em; }
+    .logros-bioFacu__titulo h3 {
+      font-size: 4em; }
+  .logros-bioFacu__nacionales-historico-titulo {
+    padding: 4em;
+    background-position-x: 44%; }
+    .logros-bioFacu__nacionales-historico-titulo h1 {
+      font-size: 4em; }
+  .logros__historial-nacional, .logros__historial-internacional {
+    padding: 2em; }
+  .card-img img {
+    width: 80%; }
+  .card__biofacu--logros {
+    width: 10em; }
+  .card-biofacu__desc-logro {
+    font-size: 0.7em; }
+  .logros-bioFacu__internacionales-historico-titulo {
+    padding: 2em; }
+    .logros-bioFacu__internacionales-historico-titulo h1 {
+      font-size: 4em; }
+  .biofacu__textos--frasefinal {
+    padding: 4em; }
+    .biofacu__textos--frasefinal h3 {
+      font-size: 2em; }
+    .biofacu__textos--frasefinal p {
+      font-size: .9em; } }
+
+/* No greater than 576px */
+@media screen and (max-width: 576px) {
+  .nosotros__ceci {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 62%;
+    padding: 1em; }
+  .bioceci__textos--presentacion {
+    padding: 1em; }
+    .bioceci__textos--presentacion h1 {
+      margin-bottom: 1em;
+      font-size: 2em; }
+    .bioceci__textos--presentacion p {
+      font-size: .7em;
+      padding-right: 1em;
+      padding-left: 1em; }
+  .carrera-bioceci__titulo {
+    padding: 2em; }
+    .carrera-bioceci__titulo h3 {
+      font-size: 1.5em; }
+  .bioceci__textos--frasefinal {
+    padding: 2em; }
+    .bioceci__textos--frasefinal h3 {
+      font-size: 1.3em; }
+    .bioceci__textos--frasefinal p {
+      font-size: .5em;
+      margin-bottom: 0; } }
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .nosotros__ceci {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 62%;
+    padding: 1em; }
+  .bioceci__textos--presentacion {
+    padding: 1em; }
+    .bioceci__textos--presentacion h1 {
+      margin-bottom: .5em;
+      font-size: 3em; }
+    .bioceci__textos--presentacion p {
+      font-size: .9em;
+      padding-right: 1em;
+      padding-left: 1em; }
+  .carrera-bioceci__titulo {
+    padding: 2em; }
+    .carrera-bioceci__titulo h3 {
+      font-size: 2em; }
+  .bioceci__textos--frasefinal {
+    padding: 2em; }
+    .bioceci__textos--frasefinal h3 {
+      font-size: 1.3em; }
+    .bioceci__textos--frasefinal p {
+      font-size: .5em;
+      margin-bottom: 0; } }
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nosotros__ceci {
+    padding: 3em; }
+  .bioceci__textos--presentacion {
+    padding: 1em; }
+    .bioceci__textos--presentacion h1 {
+      margin-bottom: .5em;
+      font-size: 3em; }
+    .bioceci__textos--presentacion p {
+      font-size: .9em;
+      padding-right: 1em;
+      padding-left: 1em; }
+  .carrera-bioceci__titulo {
+    padding: 3em; }
+    .carrera-bioceci__titulo h3 {
+      font-size: 2.5em; }
+  .bioceci__textos--frasefinal {
+    padding: 2em; }
+    .bioceci__textos--frasefinal h3 {
+      font-size: 1.3em; }
+    .bioceci__textos--frasefinal p {
+      font-size: .5em;
+      margin-bottom: 0; } }
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nosotros__ceci {
+    padding: 6em;
+    background-position-x: 50%; }
+  .bioceci__textos--presentacion {
+    padding: 1em; }
+    .bioceci__textos--presentacion h1 {
+      margin-bottom: .5em;
+      font-size: 5em; }
+    .bioceci__textos--presentacion p {
+      font-size: .9em;
+      padding-right: 1em;
+      padding-left: 1em; }
+  .carrera-bioceci__titulo {
+    padding: 4em; }
+    .carrera-bioceci__titulo h3 {
+      font-size: 3em; }
+  .bioceci__textos--frasefinal {
+    padding: 4em; }
+    .bioceci__textos--frasefinal h3 {
+      font-size: 2em; }
+    .bioceci__textos--frasefinal p {
+      font-size: 1em;
+      margin-bottom: 0; } }
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container {
+    justify-content: center;
+    padding: 0 !important; } }
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 1200px) {
+  img {
+    width: 35em; }
+  .container {
+    justify-content: space-around;
+    padding: 0 !important; } }
+
 @media screen and (max-width: 576px) {
   .logo-footer {
     width: 18em;
@@ -686,11 +1073,11 @@ hr.light-100, hr.light {
 /* No greater than 992px, no less than 768px */
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .logo-footer {
-    width: 18em;
+    width: 12em;
     margin-bottom: 2em;
-    margin-top: 1em; }
+    margin-top: 4em; }
   footer .container-fluid .row .col-md-4 h5 {
-    font-size: 1.4em; }
+    font-size: 1em; }
   footer .container-fluid .row .col-md-4 p {
     font-size: .8em; }
   footer .container-fluid .row .col-12 h5 {

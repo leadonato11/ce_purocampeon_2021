@@ -1,0 +1,21 @@
+// Medium devices (tablets, 768px and up)
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width:768px) {
+    .container {
+        justify-content: center;
+        padding: 0 !important;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 1200px) {
+    img {
+        width: 35em;
+    }
+
+    .container {
+        justify-content: space-around;
+        padding: 0 !important;
+    }
+}

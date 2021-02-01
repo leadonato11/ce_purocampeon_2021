@@ -1,0 +1,139 @@
+// Small devices (landscape phones, 576px and up)
+/* No greater than 576px */
+@media screen and (max-width: 576px) {
+    .actividades__musculacion--bg {
+        background-position-x: 50%;
+    }
+    
+    .actividades__musculacion--text, .actividades__clases--text {
+        font-size: 3em;
+        padding-top: .5em;
+    }
+    
+    .horarios__musculacion--turnos {
+        text-align: center;
+        font-size: .7em;
+        
+    }
+
+    .horarios__musculacion--info {
+        font-size: .5em;
+    }
+
+    .btn_reservar_musculacion, .btn_reservar_clases {
+        font-size: .8em;
+    }
+
+    .horarios__tablas {
+        margin-top: 1em;
+        th, td {
+            font-size: 1em;
+            padding: .6em;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width:768px) {
+    .actividades__musculacion--bg {
+        background-position-x: 42%;
+    }
+    
+    .actividades__musculacion--text, .actividades__clases--text {
+        font-size: 3.5em !important;
+        padding-top: .5em;
+    }
+    
+    .horarios__musculacion--turnos {
+        text-align: center;
+        font-size: 1em;
+        
+    }
+
+    .horarios__musculacion--info {
+        font-size: .8em;
+    }
+
+    .btn_reservar_musculacion, .btn_reservar_clases {
+        font-size: .8em;
+    }
+
+    .horarios__tablas {
+        margin-top: 1em;
+        th, td {
+            font-size: 1em;
+            padding: .6em;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width:992px) { 
+    .actividades__musculacion--bg {
+        background-position-x: 42%;
+    }
+    
+    .actividades__musculacion--text, .actividades__clases--text {
+        font-size: 3.5em !important;
+        padding-top: .5em;
+    }
+    
+    .horarios__musculacion--turnos {
+        text-align: center;
+        font-size: 1em;
+        
+    }
+
+    .horarios__musculacion--info {
+        font-size: .8em;
+    }
+
+    .btn_reservar_musculacion, .btn_reservar_clases {
+        font-size: .8em;
+    }
+
+    .horarios__tablas {
+        margin-top: 1em;
+        th, td {
+            font-size: 1em;
+            padding: .6em;
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .actividades__musculacion--bg {
+        background-position-x: 42%;
+    }
+    
+    .actividades__musculacion--text, .actividades__clases--text {
+        font-size: 5em !important;
+        padding-top: .5em;
+    }
+    
+    .horarios__musculacion--turnos {
+        text-align: center;
+        font-size: 1.5em;
+        
+    }
+
+    .horarios__musculacion--info {
+        font-size: 1em;
+    }
+
+    .btn_reservar_musculacion, .btn_reservar_clases {
+        font-size: 1em;
+    }
+
+    .horarios__tablas {
+        margin-top: 1em;
+        th, td {
+            font-size: 1.3em;
+            padding: .6em;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 .actividades__musculacion--bg {
     background-image: url("../assets/images/activities/bg-musculacion.jpg");
-    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-bottom: 0;
     text-align: center;
 }
@@ -22,11 +23,15 @@
 .horarios__musculacion--turnos {
     text-align: center;
     font-size: 2em;
+    p {
+        font-family: 'Montserrat', sans-serif;
+    }
 }
 
 .horarios__musculacion--info {
     text-align: center;
     font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn_reservar_musculacion {

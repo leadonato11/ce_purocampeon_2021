@@ -1,0 +1,285 @@
+// Small devices (landscape phones, 576px and up)
+/* No greater than 576px */
+@media screen and (max-width: 576px) {
+    .nosotros__facu {
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 62%;
+        padding: 1em;
+    }
+    
+    .biofacu__textos--presentacion {
+        padding: 1em;
+        h1 {
+            margin-bottom: 1em;
+            font-size: 2em;
+        }
+        p {
+            font-size: .7em;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+    }
+
+    .logros-bioFacu__titulo {
+        padding: 1em;
+        h3 {
+            font-size: 2em;
+        }
+    }
+
+    .logros-bioFacu__nacionales-historico-titulo {
+        padding: 2em;
+        background-position-x: 44%;
+        h1 {
+            font-size: 2em;
+        }
+    }
+    .logros__historial-nacional, .logros__historial-internacional {
+        padding: 2em;
+    }
+
+    .card__biofacu--logros {
+        width: 9em;
+    }
+
+    .card-biofacu__desc-logro {
+        font-size: 0.6em;
+    }
+
+    .logros-bioFacu__internacionales-historico-titulo {
+        padding: 1em;
+        background-position-y: 30%;
+        h1 {
+            font-size: 2em;
+        }
+    }
+
+    .biofacu__textos--frasefinal {
+        padding: 2em;
+        h3 {
+            font-size: 1.5em;
+        }
+        p {
+            font-size: .5em;
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width:768px) {
+    .nosotros__facu {
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 62%;
+        padding: 1em;
+    }
+    
+    .biofacu__textos--presentacion {
+        padding: 1em;
+        h1 {
+            margin-bottom: .5em;
+            font-size: 3em;
+        }
+        p {
+            font-size: 1em;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+    }
+
+    .logros-bioFacu__titulo {
+        padding: 3em;
+        h3 {
+            font-size: 2em;
+        }
+    }
+
+    .logros-bioFacu__nacionales-historico-titulo {
+        padding: 2em;
+        background-position-x: 44%;
+        h1 {
+            font-size: 3em;
+        }
+    }
+    .logros__historial-nacional, .logros__historial-internacional {
+        padding: 2em;
+    }
+
+    .card-img img {
+        width: 80%;
+    }
+
+    .card__biofacu--logros {
+        width: 8em;
+    }
+
+    .card-biofacu__desc-logro {
+        font-size: 0.6em;
+    }
+
+    .logros-bioFacu__internacionales-historico-titulo {
+        padding: 2em;
+        background-position-x: -30%;
+        h1 {
+            font-size: 3em;
+        }
+    }
+
+    .biofacu__textos--frasefinal {
+        padding: 2em;
+        h3 {
+            font-size: 1.5em;
+        }
+        p {
+            font-size: .5em;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width:992px) { 
+    .nosotros__facu {
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 62%;
+        padding: 1em;
+    }
+    
+    .biofacu__textos--presentacion {
+        padding: 1em;
+        h1 {
+            margin-bottom: 1em;
+            font-size: 3em;
+        }
+        p {
+            font-size: 1em;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+    }
+
+    .logros-bioFacu__titulo {
+        padding: 3em;
+        h3 {
+            font-size: 2em;
+        }
+    }
+
+    .logros-bioFacu__nacionales-historico-titulo {
+        padding: 2em;
+        background-position-x: 44%;
+        h1 {
+            font-size: 3em;
+        }
+    }
+    .logros__historial-nacional, .logros__historial-internacional {
+        padding: 2em;
+    }
+
+    .card-img img {
+        width: 80%;
+    }
+
+    .card__biofacu--logros {
+        width: 8em;
+    }
+
+    .card-biofacu__desc-logro {
+        font-size: 0.6em;
+    }
+
+    .logros-bioFacu__internacionales-historico-titulo {
+        padding: 2em;
+        background-position-x: -30%;
+        h1 {
+            font-size: 3em;
+        }
+    }
+
+    .biofacu__textos--frasefinal {
+        padding: 2em;
+        h3 {
+            font-size: 1.5em;
+        }
+        p {
+            font-size: .5em;
+        }
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .nosotros__facu {
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10em;
+    }
+    
+    .biofacu__textos--presentacion {
+        padding: 1em;
+        h1 {
+            margin-bottom: 1em;
+            font-size: 3em;
+        }
+        p {
+            font-size: 1em;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+    }
+
+    .logros-bioFacu__titulo {
+        padding: 6em;
+        h3 {
+            font-size: 4em;
+        }
+    }
+
+    .logros-bioFacu__nacionales-historico-titulo {
+        padding: 4em;
+        background-position-x: 44%;
+        h1 {
+            font-size: 4em;
+        }
+    }
+    .logros__historial-nacional, .logros__historial-internacional {
+        padding: 2em;
+    }
+
+    .card-img img {
+        width: 80%;
+    }
+
+    .card__biofacu--logros {
+        width: 10em;
+    }
+
+    .card-biofacu__desc-logro {
+        font-size: 0.7em;
+    }
+
+    .logros-bioFacu__internacionales-historico-titulo {
+        padding: 2em;
+        h1 {
+            font-size: 4em;
+        }
+    }
+
+    .biofacu__textos--frasefinal {
+        padding: 4em;
+        h3 {
+            font-size: 2em;
+        }
+        p {
+            font-size: .9em;
+        }
+    }
+}
