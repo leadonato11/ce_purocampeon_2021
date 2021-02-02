@@ -269,8 +269,7 @@ body {
   padding: 10em; }
 
 .biofacu__textos--presentacion {
-  padding: 5em;
-  text-align: justify; }
+  padding: 5em; }
   .biofacu__textos--presentacion h1 {
     margin-bottom: .3em;
     text-align: center;
@@ -280,9 +279,7 @@ body {
   .biofacu__textos--presentacion p {
     font-size: 1em;
     font-family: 'Montserrat', sans-serif !important;
-    color: #f1f6f9;
-    padding-right: 20em;
-    padding-left: 20em; }
+    color: #f1f6f9; }
 
 .logros-bioFacu__titulo {
   width: 100%;
@@ -363,8 +360,7 @@ body {
   padding: 10em; }
 
 .bioceci__textos--presentacion {
-  padding: 5em;
-  text-align: justify; }
+  padding: 5em; }
   .bioceci__textos--presentacion h1 {
     margin-bottom: .3em;
     text-align: center;
@@ -374,9 +370,7 @@ body {
   .bioceci__textos--presentacion p {
     font-size: 1em;
     font-family: 'Montserrat', sans-serif !important;
-    color: #f1f6f9;
-    padding-right: 20em;
-    padding-left: 20em; }
+    color: #f1f6f9; }
 
 .carrera-bioceci__titulo {
   width: 100%;
