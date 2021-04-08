@@ -1,8 +1,14 @@
 // Small devices (landscape phones, 576px and up)
 /* No greater than 576px */
 @media screen and (max-width: 576px) {
+    .actividades__clases--bg {
+        background-size: 2200px;
+        background-position-x: -215px;
+    }
+    
     .actividades__musculacion--bg {
         background-position-x: 50%;
+        height: 200px;
     }
     
     .actividades__musculacion--text, .actividades__clases--text {
@@ -26,6 +32,7 @@
 
     .nav-pills__dias {
         margin: 0 50px 0 50px;
+        font-size: 15px;
     }
 
     .horarios__tablas {

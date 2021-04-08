@@ -1,34 +1,67 @@
-.bg-formulario {
+.container-contacto {
     background-image: url("../assets/images/contact/bg-contact-form.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    justify-content: center;
 }
 
-.form-container {
-    color: #f1f6f9;
-    padding: 2em;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px #000;
+.container-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+    h3 {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2em;
+        color: white;
+    }
 }
 
-legend {
-    font-size: 2em;
+.iconosRedes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 7em;
+    font-size: 4.5em;
+    padding: 1rem;
     text-align: center;
-    margin-bottom: 2em;
 }
 
-.form-group label, .form-group input, .form-group select, .form-group select option, .form-group textarea {
-    font-family: 'Montserrat', sans-serif;
+.fa-facebook {
+    transition: 0.2s ease-in-out;
+    color: #3b5998;
+    &:hover {
+        transform: scale(1.2,1.2);
+    }
+}
+
+.fa-instagram {
+    transition: 0.2s ease-in-out;
+    color: #d6249f;
+    &:hover {
+        transform: scale(1.2,1.2);
+    }
+}
+
+.fa-whatsapp {
+    transition: 0.2s ease-in-out;
+    color: #4FCE5D;
+    &:hover {
+        transform: scale(1.2,1.2);
+    }
+}
+
+.fa-at {
+    transition: 0.2s ease-in-out;
+    color: #00bebe;
+    &:hover {
+        transform: scale(1.2,1.2);
+    }
 }
 
 .foto-contacto {
-    width: 50%;
+    margin: 30px 15px 30px 15px;
 }

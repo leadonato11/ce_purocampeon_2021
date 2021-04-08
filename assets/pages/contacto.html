@@ -1,100 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Puro Campeón, sede Casilda. Entrenamiento Funcional, Kick boxing, MMA, Boxeo y muchas otras actividades pensadas para vos. Entrená con nosotros.">
-    <meta name="keywords" content="Gimnasio, Entrenamiento, Funcional, Musculación, MMA, Kick boxing, K1, Entrenamiento adultos mayores, Clases personalizadas, Boxeo, Tonificación, Pérdida de peso, Casilda, Centro de entrenamiento, Entrenamiento intermitente, Facundo Donato, Cecilia Nadalini, Puro Campeón, Casilda">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/d0e19c53ff.js" crossorigin="anonymous"></script>
-    <title>Contacto | Puro Campeón Casilda</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Puro Campeón, sede Casilda. Entrenamiento Funcional, Kick boxing, MMA, Boxeo y muchas otras actividades pensadas para vos. Entrená con nosotros.">
+        <meta name="keywords" content="Gimnasio, Entrenamiento, Funcional, Musculación, MMA, Kick boxing, K1, Entrenamiento adultos mayores, Clases personalizadas, Boxeo, Tonificación, Pérdida de peso, Casilda, Centro de entrenamiento, Entrenamiento intermitente, Facundo Donato, Cecilia Nadalini, Puro Campeón, Casilda">
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/estilos.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/d0e19c53ff.js" crossorigin="anonymous"></script>
+        <title>Facundo Donato | Puro Campeón Casilda</title>
+    </head>
 <body>
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
-    <a class="navbar-brand" href="../../index.html">
+      <a class="navbar-brand" href="index.html">
         <img src="../images/logos/logo_purocampeon-01.png">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <i class="fas fa-bars"></i>
-    </button>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-            <a class="nav-link" href="../../index.html">INICIO</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../pages/actividades.html">ACTIVIDADES</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../pages/galeria.html">GALERÍA</a>
-        </li>
-        <li class="nav-item dropdown">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../../index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../pages/actividades.html">ACTIVIDADES</a>
+          </li>
+          <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        NOSOTROS
+          NOSOTROS
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../pages/bioFacundo.html">FACUNDO DONATO</a>
-            <a class="dropdown-item" href="../pages/bioCecilia.html">CECILIA NADALINI</a>
+              <a class="dropdown-item" href="../pages/bioFacundo.html">FACUNDO DONATO</a>
+              <a class="dropdown-item" href="../pages/bioCecilia.html">CECILIA NADALINI</a>
             </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
-        </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../pages/galeria.html">GALERÍA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../pages/contacto.html">CONTACTO</a>
+          </li>
         </ul>
+      </div>
     </div>
-    </div>
-</nav>
+  </nav>
 <!-- End Navigation -->
 
-<!-- Contact form -->
-    <div class="container">
-        <div class="form-container bg-formulario">
-            <form action="contact-form.php" method="POST">
-                <fieldset>
-                    <legend>Escribinos!</legend>
-            
-                    <div class="form-group">
-                        <label for="name">Nombre y apellido</label>
-                        <input type="text" name="nombre" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Correo electrónico</label>
-                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="asunto">Asunto</label>
-                        <select name="asunto" class="custom-select" required>
-                            <option class="seleccionada" selected disabled>Elije un asunto</option>
-                            <option value="clases">Clases</option>
-                            <option value="musculacion">Musculación</option>
-                            <option value="eventos">Eventos</option>
-                            <option value="productos">Productos</option>
-                            <option value="rrhh">Quiero ser profe en Puro Campeón</option>
-                            <option value="generales">Consultas generales</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="msg">Tu mensaje:</label>
-                        <textarea class="form-control" id="msg" name="msg" placeholder="Escribe tu mensaje..." rows="3"></textarea>
-                    </div>
-                    <div class="btn-submit-enviar">
-                        <button type="submit" name="enviar" class="btn btn-primary w-100">Enviar</button>
-                    </div>
-                </fieldset>
-            </form>
+<!-- Contenedor redes y correo -->
+    <div class="container-contacto">
+      <div class="container-redes">
+        <h3>Visitanos en nuestras redes</h3>
+        <div class="iconosRedes">
+          <a href="https://www.facebook.com/Puro-Campe%C3%B3n-189594258636281" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/puro_campeon_/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/+543464547742/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto: contacto@purocampeon.com.ar" target="_blank"><i class="fas fa-at"></i></a>
         </div>
-        <div class="foto-contacto d-none d-lg-block">
-            <img class="img-contacto" src="../images/contact/contacto-foto-lateral.png">
-        </div>
+      </div>
+      <div class="foto-contacto d-none d-lg-block">
+        <img class="img-contacto" src="../images/contact/contacto-foto-lateral.png">
+      </div>
     </div>
 <!-- End contact form -->
 
@@ -112,33 +86,32 @@
 <!-- Footer -->
 <footer>
     <div class="container-fluid">
-    <div class="row text-center">
+      <div class="row text-center">
         <div class="col-md-4">
-        <img class="logo-footer" src="../images/logos/logo_purocampeon-01.png">
+          <img class="logo-footer" src="../images/logos/logo_purocampeon-01.png">
         </div>
         <div class="col-md-4">
-        <hr class="light">
-        <h5>Horarios</h5>
-        <hr class="light">
-        <p>Lunes a Viernes de 8am a 22pm</p>
-        <p>Sábados de 8am a 13pm</p>
-        <p>Domingos, nos tomamos un descansito...</p>
+          <hr class="light">
+          <h5>Horarios</h5>
+          <hr class="light">
+          <p>Lunes a Viernes de 7:30am a 22pm</p>
+          <p>Sábados y domingos cerrado</p>
         </div>
         <div class="col-md-4">
-        <hr class="light">
-        <h5>Datos de Contacto</h5>
-        <hr class="light">
-        <p>Dirección: Fray Luis Beltrán 3031</p>
-        <p>Email: contacto@purocampeon.com.ar</p>
-        <p>Casilda - Santa Fe - Argentina</p>
+          <hr class="light">
+          <h5>Datos de Contacto</h5>
+          <hr class="light">
+          <p>Dirección: Fray Luis Beltrán 3041</p>
+          <p>Email: <a href="mailto: contacto@purocampeon.com.ar">contacto@purocampeon.com.ar</a></p>
+          <p>Casilda - Santa Fe - Argentina</p>
         </div>
         <div class="col-12">
-        <hr class="light-100">
-        <h5>©2021 por <a href="#">Leandro Donato</a> - Todos los derechos reservados</h5>
+          <hr class="light-100">
+          <h5>©2021 por <a href="#">Leandro Donato</a> - Todos los derechos reservados</h5>
         </div>
+      </div>
     </div>
-    </div>
-</footer>
+  </footer>
 <!-- End footer -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

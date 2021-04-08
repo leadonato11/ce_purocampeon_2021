@@ -135,7 +135,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 0;
-  text-align: center; }
+  text-align: center;
+  height: 600px; }
 
 .actividades__clases--bg {
   background-image: url("../assets/images/activities/bg-clases.jpg");
@@ -168,7 +169,7 @@ body {
   font-size: 1.5em;
   text-align: center; }
   .nav-pills__dias a {
-    color: #00587a; }
+    color: #e7e7de; }
 
 .nav-pills .nav-link.active {
   background-color: #e7e7de;
@@ -400,34 +401,60 @@ body {
     font-size: .8em;
     font-family: 'Montserrat', sans-serif; }
 
-.bg-formulario {
+.container-contacto {
   background-image: url("../assets/images/contact/bg-contact-form.jpeg");
   background-size: cover;
-  background-repeat: no-repeat; }
-
-.container {
+  background-repeat: no-repeat;
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 2em;
-  margin-bottom: 2em; }
+  justify-content: center; }
 
-.form-container {
-  color: #f1f6f9;
-  padding: 2em;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px #000; }
+.container-redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 30px 0 30px; }
+  .container-redes h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+    color: white; }
 
-legend {
-  font-size: 2em;
-  text-align: center;
-  margin-bottom: 2em; }
+.iconosRedes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 7em;
+  font-size: 4.5em;
+  padding: 1rem;
+  text-align: center; }
 
-.form-group label, .form-group input, .form-group select, .form-group select option, .form-group textarea {
-  font-family: 'Montserrat', sans-serif; }
+.fa-facebook {
+  transition: 0.2s ease-in-out;
+  color: #3b5998; }
+  .fa-facebook:hover {
+    transform: scale(1.2, 1.2); }
+
+.fa-instagram {
+  transition: 0.2s ease-in-out;
+  color: #d6249f; }
+  .fa-instagram:hover {
+    transform: scale(1.2, 1.2); }
+
+.fa-whatsapp {
+  transition: 0.2s ease-in-out;
+  color: #4FCE5D; }
+  .fa-whatsapp:hover {
+    transform: scale(1.2, 1.2); }
+
+.fa-at {
+  transition: 0.2s ease-in-out;
+  color: #00bebe; }
+  .fa-at:hover {
+    transform: scale(1.2, 1.2); }
 
 .foto-contacto {
-  width: 50%; }
+  margin: 30px 15px 30px 15px; }
 
 footer {
   background-color: #252525;
@@ -616,8 +643,12 @@ hr.light-100, hr.light {
 
 /* No greater than 576px */
 @media screen and (max-width: 576px) {
+  .actividades__clases--bg {
+    background-size: 2200px;
+    background-position-x: -215px; }
   .actividades__musculacion--bg {
-    background-position-x: 50%; }
+    background-position-x: 50%;
+    height: 200px; }
   .actividades__musculacion--text, .actividades__clases--text {
     font-size: 2em;
     padding-top: .5em; }
@@ -629,7 +660,8 @@ hr.light-100, hr.light {
   .btn_reservar_musculacion, .btn_reservar_clases {
     font-size: .8em; }
   .nav-pills__dias {
-    margin: 0 50px 0 50px; }
+    margin: 0 50px 0 50px;
+    font-size: 15px; }
   .horarios__tablas {
     margin-top: 1em; }
     .horarios__tablas th, .horarios__tablas td {
@@ -1051,13 +1083,16 @@ hr.light-100, hr.light {
     padding: 0 !important; } }
 
 /* No greater than 1200px, no less than 992px */
-@media screen and (min-width: 1200px) {
-  .img-contacto {
-    width: 35em; }
-  .container {
-    justify-content: space-around;
-    padding: 0 !important; } }
+/* @media screen and (min-width: 1200px) {
+    .img-contacto {
+        width: 35em;
+    }
 
+    .container {
+        justify-content: space-around;
+        padding: 0 !important;
+    }
+} */
 @media screen and (max-width: 576px) {
   .logo-footer {
     width: 18em;

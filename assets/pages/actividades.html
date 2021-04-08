@@ -19,7 +19,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="../../index.html">
+      <a class="navbar-brand" href="index.html">
         <img src="../images/logos/logo_purocampeon-01.png">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -28,11 +28,11 @@
 
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="../../index.html">INICIO</a>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../../index.html">INICIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/actividades.html">ACTIVIDADES</a>
+            <a class="nav-link" aria-current="page" href="../pages/actividades.html">ACTIVIDADES</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -44,7 +44,10 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pages/galeria.html">GALERÍA</a>
+            <a class="nav-link" aria-current="page" href="../pages/galeria.html">GALERÍA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../pages/contacto.html">CONTACTO</a>
           </li>
         </ul>
       </div>
@@ -58,7 +61,7 @@
       <div class="jumbotron actividades__musculacion--bg">
         <h1 class="text-center actividades__musculacion--text">Musculación</h1>
         <div class="horarios__musculacion--turnos">
-          <p class="horarios__musculacion">Lunes a Viernes (primer turno) de 8:00hs a 11:30hs</p>
+          <p class="horarios__musculacion">Lunes a Viernes (primer turno) de 7:30hs a 11:30hs</p>
           <p class="horarios__musculacion">Lunes a Viernes (segundo turno) de 14:00hs a 22:00hs</p>
         </div>
       </div>
@@ -73,119 +76,71 @@
       <div class="row">
         <div class="col-md-3 actividades__tabs">
           <div class="nav flex-column nav-pills nav-pills__dias" id="actividades_tabs" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active" id="actividades-lunes-tab" data-toggle="pill" href="#actividades-lunes" role="tab" aria-controls="actividades-lunes" aria-selected="true">
-              Lunes
+            <a class="nav-link active" id="actividades-lunesMiercolesViernes-tab" data-toggle="pill" href="#actividades-lunesMiercolesViernes" role="tab" aria-controls="actividades-lunesMiercolesViernes" aria-selected="true">
+              Lunes | Miércoles | Viernes
             </a>
-            <a class="nav-link" id="actividades-martes-tab" data-toggle="pill" href="#actividades-martes" role="tab" aria-controls="actividades-martes" aria-selected="false">
-              Martes
-            </a>
-            <a class="nav-link" id="actividades-miercoles-tab" data-toggle="pill" href="#actividades-miercoles" role="tab" aria-controls="actividades-miercoles" aria-selected="false">
-              Miércoles
-            </a>
-            <a class="nav-link" id="actividades-jueves-tab" data-toggle="pill" href="#actividades-jueves" role="tab" aria-controls="actividades-jueves" aria-selected="false">
-              Jueves
-            </a>
-            <a class="nav-link" id="actividades-viernes-tab" data-toggle="pill" href="#actividades-viernes" role="tab" aria-controls="actividades-viernes" aria-selected="false">
-              Viernes
+            <a class="nav-link" id="actividades-martesJueves-tab" data-toggle="pill" href="#actividades-martesJueves" role="tab" aria-controls="actividades-martesJueves" aria-selected="false">
+              Martes | Jueves
             </a>
           </div>
 
         </div>
         <div class="col-md-9">
           <div class="tab-content" id="actividades_tabsContent">
-            <div class="tab-pane fade show active" id="actividades-lunes" role="tabpanel" aria-labelledby="actividades-lunes-tab">
+            <div class="tab-pane fade show active" id="actividades-lunesMiercolesViernes" role="tabpanel" aria-labelledby="actividades-lunes-tab">
               <table class="table horarios__tablas">
                 <tbody>
                   <tr>
-                    <th scope="row">08:00</th>
+                    <th scope="row">08:30</th>
                     <td>Entrenamiento Funcional</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13:30</th>
+                    <td>Kick Boxing (adultos)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15:00</th>
+                    <td>Clases Personalizadas</td>
+                  </tr>
+                  <tr>
+                    <th class="align-middle" rowspan="2" scope="row">16:00</th>
+                    <td>Kick Boxing (menores)</td>
+                  </tr>
+                  <tr>
+                    <td>Entrenamiento Funcional</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18:00</th>
+                    <td>Kick Boxing (adultos)</td>
+                  </tr>
                   <tr>
                     <th scope="row">19:00</th>
                     <td>Boxeo</td>
+                  </tr>
                   <tr>
                     <th scope="row">20:00</th>
                     <td>Boxeo</td>
                   </tr>
                   <tr>
-                    <th scope="row">21:00</th>
+                    <th class="align-middle" rowspan="2" scope="row">21:00</th>
                     <td>Entrenamiento Funcional</td>
+                  </tr>
+                  <tr>
+                    <td>Kick Boxing (adultos)</td>
                   </tr>
                 </tbody>
               </table>
             </div>
-            <div class="tab-pane fade" id="actividades-martes" role="tabpanel" aria-labelledby="actividades-martes-tab">
+            <div class="tab-pane fade" id="actividades-martesJueves" role="tabpanel" aria-labelledby="actividades-martesJueves-tab">
               <table class="table horarios__tablas">
                 <tbody>
                   <tr>
-                    <th scope="row">19:00</th>
-                    <td>Kick boxing (menores)</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">20:00</th>
-                    <td>Boxeo</td>
+                    <th scope="row">18:00</th>
+                    <td>Aceleración metabólica</td>
                   </tr>
                 </tbody>
               </table>
             </div>
-            <div class="tab-pane fade" id="actividades-miercoles" role="tabpanel" aria-labelledby="actividades-miercoles-tab">
-              <table class="table horarios__tablas">
-                <tbody>
-                  <tr>
-                    <th scope="row">08:00</th>
-                    <td>Entrenamiento Funcional</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">19:00</th>
-                    <td>Boxeo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">20:00</th>
-                    <td>Boxeo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">21:00</th>
-                    <td>Entrenamiento Funcional</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="tab-pane fade" id="actividades-jueves" role="tabpanel" aria-labelledby="actividades-jueves-tab">
-              <table class="table horarios__tablas">
-                <tbody>
-                  <tr>
-                    <th scope="row">19:00</th>
-                    <td>Kick boxing (menores)</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">20:00</th>
-                    <td>Boxeo</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="tab-pane fade" id="actividades-viernes" role="tabpanel" aria-labelledby="actividades-viernes-tab">
-              <table class="table horarios__tablas">
-                <tbody>
-                  <tr>
-                    <th scope="row">08:00</th>
-                    <td>Entrenamiento Funcional</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">17:00</th>
-                    <td>Kick boxing (menores)</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">19:00</th>
-                    <td>Boxeo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">20:00</th>
-                    <td>Boxeo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">21:00</th>
-                    <td>Entrenamiento Funcional</td>
-                  </tr>
                 </tbody>
               </table>
             </div>
@@ -207,7 +162,7 @@
           <hr class="light">
           <h5>Horarios</h5>
           <hr class="light">
-          <p>Lunes a Viernes de 8am a 22pm</p>
+          <p>Lunes a Viernes de 7:30am a 22pm</p>
           <p>Sábados y domingos cerrado</p>
         </div>
         <div class="col-md-4">
@@ -226,6 +181,7 @@
     </div>
   </footer>
   <!-- End footer -->
+
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
