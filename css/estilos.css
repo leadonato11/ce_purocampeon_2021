@@ -483,7 +483,8 @@ hr.light-100, hr.light {
   .main-text {
     top: 35%; }
   .jumbotron {
-    padding: 2em; }
+    padding: 2em;
+    background-attachment: scroll; }
     .jumbotron .titulo_jumbotron {
       font-size: 1.5rem; }
     .jumbotron .lead {
@@ -492,6 +493,8 @@ hr.light-100, hr.light {
     margin: 0; }
   .cards-titulo h1 {
     font-size: 1.6rem; }
+  .redes-sociales {
+    background-position-x: 60%; }
   .social-titulo h2 {
     font-size: 1.2em;
     margin-bottom: 1em; }
@@ -514,7 +517,8 @@ hr.light-100, hr.light {
   .main-text {
     top: 35%; }
   .jumbotron {
-    padding: 2em; }
+    padding: 2em;
+    background-attachment: scroll; }
     .jumbotron h1 {
       font-size: 2.5rem; }
     .jumbotron .lead {
@@ -523,6 +527,8 @@ hr.light-100, hr.light {
     margin: 0; }
   .cards-titulo h1 {
     font-size: 1.6rem; }
+  .redes-sociales {
+    background-position-x: 60%; }
   .social-titulo h2 {
     font-size: 1.2em;
     margin-bottom: 1em; }
@@ -545,7 +551,8 @@ hr.light-100, hr.light {
   .main-text {
     top: 35%; }
   .jumbotron {
-    padding: 2em; }
+    padding: 2em;
+    background-attachment: scroll; }
     .jumbotron h1 {
       font-size: 2.5rem; }
     .jumbotron .lead {
@@ -554,6 +561,8 @@ hr.light-100, hr.light {
     margin: 0; }
   .cards-titulo h1 {
     font-size: 1.6rem; }
+  .redes-sociales {
+    background-position-x: 60%; }
   .social-titulo h2 {
     font-size: 1.2em;
     margin-bottom: 1em; }
@@ -610,7 +619,7 @@ hr.light-100, hr.light {
   .actividades__musculacion--bg {
     background-position-x: 50%; }
   .actividades__musculacion--text, .actividades__clases--text {
-    font-size: 3em;
+    font-size: 2em;
     padding-top: .5em; }
   .horarios__musculacion--turnos {
     text-align: center;
@@ -619,6 +628,8 @@ hr.light-100, hr.light {
     font-size: .5em; }
   .btn_reservar_musculacion, .btn_reservar_clases {
     font-size: .8em; }
+  .nav-pills__dias {
+    margin: 0 50px 0 50px; }
   .horarios__tablas {
     margin-top: 1em; }
     .horarios__tablas th, .horarios__tablas td {
@@ -759,7 +770,8 @@ hr.light-100, hr.light {
       font-size: 2em; }
   .logros-bioFacu__nacionales-historico-titulo {
     padding: 2em;
-    background-position-x: 44%; }
+    background-position-y: 35%;
+    background-attachment: scroll; }
     .logros-bioFacu__nacionales-historico-titulo h1 {
       font-size: 2em; }
   .logros__historial-nacional, .logros__historial-internacional {
@@ -770,7 +782,8 @@ hr.light-100, hr.light {
     font-size: 0.6em; }
   .logros-bioFacu__internacionales-historico-titulo {
     padding: 1em;
-    background-position-y: 30%; }
+    background-position-y: 30%;
+    background-attachment: scroll; }
     .logros-bioFacu__internacionales-historico-titulo h1 {
       font-size: 2em; }
   .biofacu__textos--frasefinal {
@@ -803,7 +816,8 @@ hr.light-100, hr.light {
       font-size: 2em; }
   .logros-bioFacu__nacionales-historico-titulo {
     padding: 2em;
-    background-position-x: 44%; }
+    background-position-y: 30%;
+    background-attachment: scroll; }
     .logros-bioFacu__nacionales-historico-titulo h1 {
       font-size: 3em; }
   .logros__historial-nacional, .logros__historial-internacional {
@@ -816,7 +830,8 @@ hr.light-100, hr.light {
     font-size: 0.6em; }
   .logros-bioFacu__internacionales-historico-titulo {
     padding: 2em;
-    background-position-x: -30%; }
+    background-position-y: -30%;
+    background-attachment: scroll; }
     .logros-bioFacu__internacionales-historico-titulo h1 {
       font-size: 3em; }
   .biofacu__textos--frasefinal {
@@ -849,7 +864,8 @@ hr.light-100, hr.light {
       font-size: 2em; }
   .logros-bioFacu__nacionales-historico-titulo {
     padding: 2em;
-    background-position-x: 44%; }
+    background-position-y: 30%;
+    background-attachment: scroll; }
     .logros-bioFacu__nacionales-historico-titulo h1 {
       font-size: 3em; }
   .logros__historial-nacional, .logros__historial-internacional {
@@ -862,7 +878,8 @@ hr.light-100, hr.light {
     font-size: 0.6em; }
   .logros-bioFacu__internacionales-historico-titulo {
     padding: 2em;
-    background-position-x: -30%; }
+    background-position-y: 30%;
+    background-attachment: scroll; }
     .logros-bioFacu__internacionales-historico-titulo h1 {
       font-size: 3em; }
   .biofacu__textos--frasefinal {
@@ -894,7 +911,8 @@ hr.light-100, hr.light {
       font-size: 4em; }
   .logros-bioFacu__nacionales-historico-titulo {
     padding: 4em;
-    background-position-x: 44%; }
+    background-position-y: 30%;
+    background-attachment: scroll; }
     .logros-bioFacu__nacionales-historico-titulo h1 {
       font-size: 4em; }
   .logros__historial-nacional, .logros__historial-internacional {
@@ -906,7 +924,8 @@ hr.light-100, hr.light {
   .card-biofacu__desc-logro {
     font-size: 0.7em; }
   .logros-bioFacu__internacionales-historico-titulo {
-    padding: 2em; }
+    padding: 2em;
+    background-attachment: scroll; }
     .logros-bioFacu__internacionales-historico-titulo h1 {
       font-size: 4em; }
   .biofacu__textos--frasefinal {

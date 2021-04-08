@@ -6,7 +6,7 @@
     }
     
     .actividades__musculacion--text, .actividades__clases--text {
-        font-size: 3em;
+        font-size: 2em;
         padding-top: .5em;
     }
     
@@ -22,6 +22,10 @@
 
     .btn_reservar_musculacion, .btn_reservar_clases {
         font-size: .8em;
+    }
+
+    .nav-pills__dias {
+        margin: 0 50px 0 50px;
     }
 
     .horarios__tablas {
