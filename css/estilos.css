@@ -1076,6 +1076,37 @@ hr.light-100, hr.light {
       font-size: 1em;
       margin-bottom: 0; } }
 
+@media screen and (max-width: 576px) {
+  .container-contacto {
+    height: 30em; }
+  .container-redes {
+    margin: 0; }
+    .container-redes h3 {
+      margin-top: 0;
+      font-size: 1.1em; }
+  .iconosRedes {
+    width: auto;
+    padding: 10px;
+    font-size: 3.5em; }
+  .fa-facebook {
+    transition: none; }
+    .fa-facebook:hover {
+      transform: none; }
+  .fa-instagram {
+    transition: none; }
+    .fa-instagram:hover {
+      transform: none; }
+  .fa-whatsapp {
+    transition: none; }
+    .fa-whatsapp:hover {
+      transform: none; }
+  .fa-at {
+    transition: none; }
+    .fa-at:hover {
+      transform: none; }
+  .logo-footer {
+    width: 16em; } }
+
 /* No greater than 768px, no less than 576px */
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .container-contacto {
@@ -1086,9 +1117,50 @@ hr.light-100, hr.light {
       margin-top: 0;
       font-size: 1.3em; }
   .iconosRedes {
-    width: 0;
-    font-size: 3.5em;
-    padding: 0.2em; } }
+    width: auto;
+    padding: 0;
+    font-size: 3.5em; } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container-contacto {
+    height: 20em; }
+  .container-redes h3 {
+    font-size: 2em; }
+  .iconosRedes {
+    font-size: 5.5em; }
+  .navbar {
+    padding: 10px; } }
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .foto-contacto img {
+    width: 25em; } }
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+  .container-contacto {
+    height: 42em; }
+  .container-redes {
+    margin: 0; }
+    .container-redes h3 {
+      margin-top: 0;
+      font-size: 1.3em; }
+  .iconosRedes {
+    width: auto;
+    padding: 0;
+    font-size: 3.5em; } }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .container-contacto {
+    height: 23em; }
+  .container-redes {
+    margin: 0; }
+    .container-redes h3 {
+      margin-top: 0;
+      font-size: 1.3em; }
+  .iconosRedes {
+    width: auto;
+    padding: 0;
+    font-size: 3.5em; } }
 
 @media screen and (max-width: 576px) {
   .logo-footer {
