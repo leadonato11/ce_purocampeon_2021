@@ -1,21 +1,19 @@
 // Medium devices (tablets, 768px and up)
 /* No greater than 768px, no less than 576px */
 @media screen and (min-width: 576px) and (max-width:768px) {
-    .container {
-        justify-content: center;
-        padding: 0 !important;
+    .container-contacto {
+        height: 42em;
+    }
+    .container-redes {
+        margin: 0;
+        h3 {
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+    }
+    .iconosRedes {
+        width: 0;
+        font-size: 3.5em;
+        padding: 0.2em;
     }
 }
-
-// X-Large devices (large desktops, 1200px and up)
-/* No greater than 1200px, no less than 992px */
-/* @media screen and (min-width: 1200px) {
-    .img-contacto {
-        width: 35em;
-    }
-
-    .container {
-        justify-content: space-around;
-        padding: 0 !important;
-    }
-} */

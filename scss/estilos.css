@@ -1,0 +1,1506 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Goldman', cursive;
+}
+
+body {
+  background-color: #14274e;
+  background-image: url("../assets/images/principal/bg-black-orchid.png");
+}
+
+.navbar {
+  padding: 20px;
+  background-color: #14274ecc;
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
+}
+
+.navbar-nav li {
+  padding-right: 10px;
+}
+
+.nav-item a {
+  position: relative;
+  color: #f1f6f9;
+  font-size: 1.5em;
+  margin: 0 10px 0 10px;
+}
+
+.nav-item a:hover {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  color: #64dfdf;
+}
+
+.navbar-toggler {
+  color: white;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #64dfdf;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  background-color: #14274e;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar .container-fluid .navbar-brand img {
+  width: 200px;
+}
+
+.main-text {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  color: #f1f6f9;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.main-text .col-md-12 h1 {
+  font-size: 7em;
+}
+
+.main-text .col-md-12 h3 {
+  font-size: 3em;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+.jumbotron {
+  padding: 5em;
+  border-radius: 0;
+  color: #f1f6f9;
+  background-image: url("../assets/images/principal/bgimage-jumbotron-index.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cards-profesionales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f1f6f9;
+}
+
+.cards-titulo {
+  color: #f1f6f9;
+}
+
+.cards-titulo hr {
+  color: #f1f6f9;
+}
+
+.card-facundo {
+  margin-right: 30px;
+}
+
+.card-cecilia {
+  margin-left: 30px;
+}
+
+.redes-sociales {
+  background-image: url("../assets/images/principal/bg-image-social.jpeg");
+  background-position-y: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 50px 0;
+  color: #f1f6f9;
+}
+
+.social-titulo h2 {
+  font-size: 2em;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+
+.fa-facebook {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.fa-instagram {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-instagram:hover {
+  color: #d6249f;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.fa-whatsapp {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.fa-whatsapp:hover {
+  color: #4FCE5D;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.fa-facebook, .fa-instagram, .fa-whatsapp {
+  color: #d5d5d5;
+}
+
+.actividades__musculacion--bg {
+  background-image: url("../assets/images/activities/bg-musculacion.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  text-align: center;
+  height: 600px;
+}
+
+.actividades__clases--bg {
+  background-image: url("../assets/images/activities/bg-clases.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2em;
+}
+
+.actividades__musculacion--text, .actividades__clases--text {
+  font-size: 7em;
+  padding: .5em 0 .3em 0;
+  color: #f1f6f9;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.horarios__musculacion--turnos {
+  text-align: center;
+  font-size: 2em;
+}
+
+.horarios__musculacion--turnos p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.horarios__musculacion--info {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn_reservar_musculacion {
+  -webkit-box-shadow: 2px 2px 8px #000;
+          box-shadow: 2px 2px 8px #000;
+}
+
+.nav-pills__dias {
+  background-color: #14274ecc;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.nav-pills__dias a {
+  color: #e7e7de;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #e7e7de;
+  color: #0f3057;
+}
+
+.horarios__tablas {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #e7e7de;
+}
+
+.table td, .table th {
+  padding: .75rem;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.galeria__contenedor {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.galeria__titulo {
+  color: white;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+
+.galeria__titulo h4 {
+  font-size: 3em;
+}
+
+.galeria__titulo h1 {
+  font-size: 7em;
+}
+
+.galeria__item {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.galeria__item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.galeria__item img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.nosotros__facu {
+  background-image: url("../assets/images/us_facundo/bg-biofacu.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 10em;
+}
+
+.biofacu__textos--presentacion {
+  padding: 5em;
+}
+
+.biofacu__textos--presentacion h1 {
+  margin-bottom: .3em;
+  text-align: center;
+  font-size: 4em;
+  color: #f1f6f9;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.biofacu__textos--presentacion p {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif !important;
+  color: #f1f6f9;
+}
+
+.logros-bioFacu__titulo {
+  width: 100%;
+  padding: 5em;
+  text-align: center;
+}
+
+.logros-bioFacu__titulo h3 {
+  font-size: 4em;
+  color: #f1f6f9;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.logros-bioFacu__nacionales-historico-titulo {
+  width: 100%;
+  padding: 5em;
+  text-align: center;
+  background-image: url("../assets/images/us_facundo/bg-logros-nacionales.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.logros-bioFacu__nacionales-historico-titulo h1 {
+  color: #f1f6f9;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.logros__historial-nacional, .logros__historial-internacional {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5em;
+}
+
+.logros-bioFacu__internacionales-historico-titulo {
+  width: 100%;
+  padding: 5em;
+  text-align: center;
+  background-image: url("../assets/images/us_facundo/bg-logros-internacionales.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 30%;
+}
+
+.logros-bioFacu__internacionales-historico-titulo h1 {
+  color: #f1f6f9;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.card__biofacu--logros {
+  border: none;
+  width: 15rem;
+}
+
+.card-img {
+  width: 100%;
+  text-align: center;
+}
+
+.card-img img {
+  width: 50%;
+}
+
+.card-biofacu__desc-logro {
+  font-family: 'Montserrat', sans-serif;
+  color: #f1f6f9;
+  font-size: .9em;
+  text-align: center;
+}
+
+.biofacu__textos--frasefinal {
+  background-color: #11698e;
+  text-align: center;
+  padding: 5em;
+  font-style: italic;
+}
+
+.biofacu__textos--frasefinal h3 {
+  color: #f7f7e8;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.biofacu__textos--frasefinal p {
+  color: #f7f7e8;
+  text-align: center;
+  font-size: .8em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nosotros__ceci {
+  background-image: url("../assets/images/us_cecilia/bg-bioceci.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 10em;
+}
+
+.bioceci__textos--presentacion {
+  padding: 5em;
+}
+
+.bioceci__textos--presentacion h1 {
+  margin-bottom: .3em;
+  text-align: center;
+  font-size: 4em;
+  color: #f1f6f9;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.bioceci__textos--presentacion p {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif !important;
+  color: #f1f6f9;
+}
+
+.carrera-bioceci__titulo {
+  width: 100%;
+  padding: 5em;
+  text-align: center;
+}
+
+.carrera-bioceci__titulo h3 {
+  font-size: 4em;
+  color: #f1f6f9;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.bioceci__textos--frasefinal {
+  background-color: #11698e;
+  text-align: center;
+  padding: 5em;
+  font-style: italic;
+}
+
+.bioceci__textos--frasefinal h3 {
+  color: #f7f7e8;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bioceci__textos--frasefinal p {
+  color: #f7f7e8;
+  text-align: center;
+  font-size: .8em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-contacto {
+  background-image: url("../assets/images/contact/bg-contact-form.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 30px 0 30px;
+}
+
+.container-redes h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2em;
+  color: white;
+}
+
+.iconosRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 7em;
+  font-size: 4.5em;
+  padding: 1rem;
+  text-align: center;
+}
+
+.fa-facebook {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #3b5998;
+}
+
+.fa-facebook:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.fa-instagram {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #d6249f;
+}
+
+.fa-instagram:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.fa-whatsapp {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #4FCE5D;
+}
+
+.fa-whatsapp:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.fa-at {
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  color: #00bebe;
+}
+
+.fa-at:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+.foto-contacto {
+  margin: 30px 15px 30px 15px;
+}
+
+footer {
+  background-color: #252525;
+  color: #9ba4b4;
+  padding-top: 2rem;
+}
+
+footer a {
+  color: #9ba4b4;
+}
+
+footer .container-fluid .row .col-md-4 h5 {
+  font-size: 1.7em;
+}
+
+hr.light-100, hr.light {
+  border-top: 1px solid #9ba4b4;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+.logo-footer {
+  width: 20em;
+  margin-top: 3em;
+}
+
+.col-12 h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+.col-12 h5 a {
+  font-family: 'Montserrat', sans-serif;
+  color: #9ba4b4;
+  text-decoration: none;
+}
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nav-bar {
+    margin-right: -2em;
+  }
+}
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nav-bar {
+    margin-right: -2em;
+  }
+  .navbar-nav {
+    font-size: 12px;
+  }
+}
+
+/* No greater than 1400px, no less than 1200px */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .nav-bar {
+    margin-right: -2em;
+  }
+  .navbar-nav {
+    font-size: .8em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main-text .col-md-12 h1 {
+    font-size: 2em;
+  }
+  .main-text .col-md-12 h3 {
+    font-size: 0.7em;
+  }
+  .main-text {
+    top: 35%;
+  }
+  .jumbotron {
+    padding: 2em;
+    background-attachment: scroll;
+  }
+  .jumbotron .titulo_jumbotron {
+    font-size: 1.5rem;
+  }
+  .jumbotron .lead {
+    font-size: 1rem;
+  }
+  .card-facundo, .card-cecilia {
+    margin: 0;
+  }
+  .cards-titulo h1 {
+    font-size: 1.6rem;
+  }
+  .redes-sociales {
+    background-position-x: 60%;
+  }
+  .social-titulo h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  .social a {
+    font-size: 3em;
+    padding: 1rem;
+  }
+  .fa-facebook {
+    color: #3b5998;
+  }
+  .fa-instagram {
+    color: #d6249f;
+  }
+  .fa-whatsapp {
+    color: #4FCE5D;
+  }
+}
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .main-text .col-md-12 h1 {
+    font-size: 4em;
+  }
+  .main-text .col-md-12 h3 {
+    font-size: 1.5em;
+  }
+  .main-text {
+    top: 35%;
+  }
+  .jumbotron {
+    padding: 2em;
+    background-attachment: scroll;
+  }
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+  .jumbotron .lead {
+    font-size: 1.3rem;
+  }
+  .card-facundo, .card-cecilia {
+    margin: 0;
+  }
+  .cards-titulo h1 {
+    font-size: 1.6rem;
+  }
+  .redes-sociales {
+    background-position-x: 60%;
+  }
+  .social-titulo h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  .social a {
+    font-size: 3em;
+    padding: 1rem;
+  }
+  .fa-facebook {
+    color: #3b5998;
+  }
+  .fa-instagram {
+    color: #d6249f;
+  }
+  .fa-whatsapp {
+    color: #4FCE5D;
+  }
+}
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .main-text .col-md-12 h1 {
+    font-size: 4em;
+  }
+  .main-text .col-md-12 h3 {
+    font-size: 1.5em;
+  }
+  .main-text {
+    top: 35%;
+  }
+  .jumbotron {
+    padding: 2em;
+    background-attachment: scroll;
+  }
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+  .jumbotron .lead {
+    font-size: 1.3rem;
+  }
+  .card-facundo, .card-cecilia {
+    margin: 0;
+  }
+  .cards-titulo h1 {
+    font-size: 1.6rem;
+  }
+  .redes-sociales {
+    background-position-x: 60%;
+  }
+  .social-titulo h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  .social a {
+    font-size: 3em;
+    padding: 1rem;
+  }
+  .fa-facebook {
+    color: #3b5998;
+  }
+  .fa-instagram {
+    color: #d6249f;
+  }
+  .fa-whatsapp {
+    color: #4FCE5D;
+  }
+}
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .main-text .col-md-12 h1 {
+    font-size: 4em;
+  }
+  .main-text .col-md-12 h3 {
+    font-size: 1.5em;
+  }
+  .main-text {
+    top: 35%;
+  }
+  .jumbotron {
+    padding: 2em;
+  }
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+  .jumbotron .lead {
+    font-size: 1.3rem;
+  }
+  .card-facundo, .card-cecilia {
+    margin: 0;
+  }
+  .cards-titulo h1 {
+    font-size: 1.6rem;
+  }
+  .social-titulo h2 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  .social a {
+    font-size: 3em;
+    padding: 1rem;
+  }
+  .fa-facebook {
+    color: #3b5998;
+  }
+  .fa-instagram {
+    color: #d6249f;
+  }
+  .fa-whatsapp {
+    color: #4FCE5D;
+  }
+}
+
+/* No greater than 1400px, no less than 1200px */
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .main-text .col-md-12 h1 {
+    font-size: 3em;
+  }
+  .main-text .col-md-12 h3 {
+    font-size: 2em;
+  }
+}
+
+/* No greater than 576px */
+@media screen and (max-width: 576px) {
+  .actividades__clases--bg {
+    background-size: 2200px;
+    background-position-x: -215px;
+  }
+  .actividades__musculacion--bg {
+    background-position-x: 50%;
+    height: 200px;
+  }
+  .actividades__musculacion--text, .actividades__clases--text {
+    font-size: 2em;
+    padding-top: .5em;
+  }
+  .horarios__musculacion--turnos {
+    text-align: center;
+    font-size: .7em;
+  }
+  .horarios__musculacion--info {
+    font-size: .5em;
+  }
+  .btn_reservar_musculacion, .btn_reservar_clases {
+    font-size: .8em;
+  }
+  .nav-pills__dias {
+    margin: 0 50px 0 50px;
+    font-size: 15px;
+  }
+  .horarios__tablas {
+    margin-top: 1em;
+  }
+  .horarios__tablas th, .horarios__tablas td {
+    font-size: 1em;
+    padding: .6em;
+  }
+}
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .actividades__musculacion--bg {
+    background-position-x: 42%;
+  }
+  .actividades__musculacion--text, .actividades__clases--text {
+    font-size: 3.5em !important;
+    padding-top: .5em;
+  }
+  .horarios__musculacion--turnos {
+    text-align: center;
+    font-size: 1em;
+  }
+  .horarios__musculacion--info {
+    font-size: .8em;
+  }
+  .btn_reservar_musculacion, .btn_reservar_clases {
+    font-size: .8em;
+  }
+  .horarios__tablas {
+    margin-top: 1em;
+  }
+  .horarios__tablas th, .horarios__tablas td {
+    font-size: 1em;
+    padding: .6em;
+  }
+}
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .actividades__musculacion--bg {
+    background-position-x: 42%;
+  }
+  .actividades__musculacion--text, .actividades__clases--text {
+    font-size: 3.5em !important;
+    padding-top: .5em;
+  }
+  .horarios__musculacion--turnos {
+    text-align: center;
+    font-size: 1em;
+  }
+  .horarios__musculacion--info {
+    font-size: .8em;
+  }
+  .btn_reservar_musculacion, .btn_reservar_clases {
+    font-size: .8em;
+  }
+  .horarios__tablas {
+    margin-top: 1em;
+  }
+  .horarios__tablas th, .horarios__tablas td {
+    font-size: 1em;
+    padding: .6em;
+  }
+}
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .actividades__musculacion--bg {
+    background-position-x: 42%;
+  }
+  .actividades__musculacion--text, .actividades__clases--text {
+    font-size: 5em !important;
+    padding-top: .5em;
+  }
+  .horarios__musculacion--turnos {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .horarios__musculacion--info {
+    font-size: 1em;
+  }
+  .btn_reservar_musculacion, .btn_reservar_clases {
+    font-size: 1em;
+  }
+  .horarios__tablas {
+    margin-top: 1em;
+  }
+  .horarios__tablas th, .horarios__tablas td {
+    font-size: 1.3em;
+    padding: .6em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .galeria__titulo {
+    margin-top: 20px;
+  }
+  .galeria__titulo h4 {
+    font-size: 1em;
+  }
+  .galeria__titulo h1 {
+    font-size: 2.5em;
+  }
+  
+
+/* No greater than 576px */
+@media screen and (max-width: 576px) {
+  .nosotros__facu {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 62%;
+    padding: 1em;
+  }
+  .biofacu__textos--presentacion {
+    padding: 1em;
+  }
+  .biofacu__textos--presentacion h1 {
+    margin-bottom: 1em;
+    font-size: 2em;
+  }
+  .biofacu__textos--presentacion p {
+    font-size: .7em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .logros-bioFacu__titulo {
+    padding: 1em;
+  }
+  .logros-bioFacu__titulo h3 {
+    font-size: 2em;
+  }
+  .logros-bioFacu__nacionales-historico-titulo {
+    padding: 2em;
+    background-position-y: 35%;
+    background-attachment: scroll;
+  }
+  .logros-bioFacu__nacionales-historico-titulo h1 {
+    font-size: 2em;
+  }
+  .logros__historial-nacional, .logros__historial-internacional {
+    padding: 2em;
+  }
+  .card__biofacu--logros {
+    width: 9em;
+  }
+  .card-biofacu__desc-logro {
+    font-size: 0.6em;
+  }
+  .logros-bioFacu__internacionales-historico-titulo {
+    padding: 1em;
+    background-position-y: 30%;
+    background-attachment: scroll;
+  }
+  .logros-bioFacu__internacionales-historico-titulo h1 {
+    font-size: 2em;
+  }
+  .biofacu__textos--frasefinal {
+    padding: 2em;
+  }
+  .biofacu__textos--frasefinal h3 {
+    font-size: 1.5em;
+  }
+  .biofacu__textos--frasefinal p {
+    font-size: .5em;
+  }
+}
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .nosotros__facu {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 62%;
+    padding: 1em;
+  }
+  .biofacu__textos--presentacion {
+    padding: 1em;
+  }
+  .biofacu__textos--presentacion h1 {
+    margin-bottom: .5em;
+    font-size: 3em;
+  }
+  .biofacu__textos--presentacion p {
+    font-size: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .logros-bioFacu__titulo {
+    padding: 3em;
+  }
+  .logros-bioFacu__titulo h3 {
+    font-size: 2em;
+  }
+  .logros-bioFacu__nacionales-historico-titulo {
+    padding: 2em;
+    background-position-y: 30%;
+    background-attachment: scroll;
+  }
+  .logros-bioFacu__nacionales-historico-titulo h1 {
+    font-size: 3em;
+  }
+  .logros__historial-nacional, .logros__historial-internacional {
+    padding: 2em;
+  }
+  .card-img img {
+    width: 80%;
+  }
+  .card__biofacu--logros {
+    width: 8em;
+  }
+  .card-biofacu__desc-logro {
+    font-size: 0.6em;
+  }
+  .logros-bioFacu__internacionales-historico-titulo {
+    padding: 2em;
+    background-position-y: -30%;
+    background-attachment: scroll;
+  }
+  .logros-bioFacu__internacionales-historico-titulo h1 {
+    font-size: 3em;
+  }
+  .biofacu__textos--frasefinal {
+    padding: 2em;
+  }
+  .biofacu__textos--frasefinal h3 {
+    font-size: 1.5em;
+  }
+  .biofacu__textos--frasefinal p {
+    font-size: .5em;
+  }
+}
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nosotros__facu {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 62%;
+    padding: 1em;
+  }
+  .biofacu__textos--presentacion {
+    padding: 1em;
+  }
+  .biofacu__textos--presentacion h1 {
+    margin-bottom: 1em;
+    font-size: 3em;
+  }
+  .biofacu__textos--presentacion p {
+    font-size: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .logros-bioFacu__titulo {
+    padding: 3em;
+  }
+  .logros-bioFacu__titulo h3 {
+    font-size: 2em;
+  }
+  .logros-bioFacu__nacionales-historico-titulo {
+    padding: 2em;
+    background-position-y: 30%;
+    background-attachment: scroll;
+  }
+  .logros-bioFacu__nacionales-historico-titulo h1 {
+    font-size: 3em;
+  }
+  .logros__historial-nacional, .logros__historial-internacional {
+    padding: 2em;
+  }
+  .card-img img {
+    width: 80%;
+  }
+  .card__biofacu--logros {
+    width: 8em;
+  }
+  .card-biofacu__desc-logro {
+    font-size: 0.6em;
+  }
+  .logros-bioFacu__internacionales-historico-titulo {
+    padding: 2em;
+    background-position-y: 30%;
+    background-attachment: scroll;
+  }
+  .logros-bioFacu__internacionales-historico-titulo h1 {
+    font-size: 3em;
+  }
+  .biofacu__textos--frasefinal {
+    padding: 2em;
+  }
+  .biofacu__textos--frasefinal h3 {
+    font-size: 1.5em;
+  }
+  .biofacu__textos--frasefinal p {
+    font-size: .5em;
+  }
+}
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nosotros__facu {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10em;
+  }
+  .biofacu__textos--presentacion {
+    padding: 1em;
+  }
+  .biofacu__textos--presentacion h1 {
+    margin-bottom: 1em;
+    font-size: 3em;
+  }
+  .biofacu__textos--presentacion p {
+    font-size: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .logros-bioFacu__titulo {
+    padding: 6em;
+  }
+  .logros-bioFacu__titulo h3 {
+    font-size: 4em;
+  }
+  .logros-bioFacu__nacionales-historico-titulo {
+    padding: 4em;
+    background-position-y: 30%;
+    background-attachment: scroll;
+  }
+  .logros-bioFacu__nacionales-historico-titulo h1 {
+    font-size: 4em;
+  }
+  .logros__historial-nacional, .logros__historial-internacional {
+    padding: 2em;
+  }
+  .card-img img {
+    width: 80%;
+  }
+  .card__biofacu--logros {
+    width: 10em;
+  }
+  .card-biofacu__desc-logro {
+    font-size: 0.7em;
+  }
+  .logros-bioFacu__internacionales-historico-titulo {
+    padding: 2em;
+    background-attachment: scroll;
+  }
+  .logros-bioFacu__internacionales-historico-titulo h1 {
+    font-size: 4em;
+  }
+  .biofacu__textos--frasefinal {
+    padding: 4em;
+  }
+  .biofacu__textos--frasefinal h3 {
+    font-size: 2em;
+  }
+  .biofacu__textos--frasefinal p {
+    font-size: .9em;
+  }
+}
+
+/* No greater than 576px */
+@media screen and (max-width: 576px) {
+  .nosotros__ceci {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 62%;
+    padding: 1em;
+  }
+  .bioceci__textos--presentacion {
+    padding: 1em;
+  }
+  .bioceci__textos--presentacion h1 {
+    margin-bottom: 1em;
+    font-size: 2em;
+  }
+  .bioceci__textos--presentacion p {
+    font-size: .7em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .carrera-bioceci__titulo {
+    padding: 2em;
+  }
+  .carrera-bioceci__titulo h3 {
+    font-size: 1.5em;
+  }
+  .bioceci__textos--frasefinal {
+    padding: 2em;
+  }
+  .bioceci__textos--frasefinal h3 {
+    font-size: 1.3em;
+  }
+  .bioceci__textos--frasefinal p {
+    font-size: .5em;
+    margin-bottom: 0;
+  }
+}
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .nosotros__ceci {
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 62%;
+    padding: 1em;
+  }
+  .bioceci__textos--presentacion {
+    padding: 1em;
+  }
+  .bioceci__textos--presentacion h1 {
+    margin-bottom: .5em;
+    font-size: 3em;
+  }
+  .bioceci__textos--presentacion p {
+    font-size: .9em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .carrera-bioceci__titulo {
+    padding: 2em;
+  }
+  .carrera-bioceci__titulo h3 {
+    font-size: 2em;
+  }
+  .bioceci__textos--frasefinal {
+    padding: 2em;
+  }
+  .bioceci__textos--frasefinal h3 {
+    font-size: 1.3em;
+  }
+  .bioceci__textos--frasefinal p {
+    font-size: .5em;
+    margin-bottom: 0;
+  }
+}
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .nosotros__ceci {
+    padding: 3em;
+  }
+  .bioceci__textos--presentacion {
+    padding: 1em;
+  }
+  .bioceci__textos--presentacion h1 {
+    margin-bottom: .5em;
+    font-size: 3em;
+  }
+  .bioceci__textos--presentacion p {
+    font-size: .9em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .carrera-bioceci__titulo {
+    padding: 3em;
+  }
+  .carrera-bioceci__titulo h3 {
+    font-size: 2.5em;
+  }
+  .bioceci__textos--frasefinal {
+    padding: 2em;
+  }
+  .bioceci__textos--frasefinal h3 {
+    font-size: 1.3em;
+  }
+  .bioceci__textos--frasefinal p {
+    font-size: .5em;
+    margin-bottom: 0;
+  }
+}
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nosotros__ceci {
+    padding: 6em;
+    background-position-x: 50%;
+  }
+  .bioceci__textos--presentacion {
+    padding: 1em;
+  }
+  .bioceci__textos--presentacion h1 {
+    margin-bottom: .5em;
+    font-size: 5em;
+  }
+  .bioceci__textos--presentacion p {
+    font-size: .9em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .carrera-bioceci__titulo {
+    padding: 4em;
+  }
+  .carrera-bioceci__titulo h3 {
+    font-size: 3em;
+  }
+  .bioceci__textos--frasefinal {
+    padding: 4em;
+  }
+  .bioceci__textos--frasefinal h3 {
+    font-size: 2em;
+  }
+  .bioceci__textos--frasefinal p {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+}
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container-redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 30px 0 30px;
+  }
+  .container-redes h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+    color: white;
+  }
+}
+
+/* No greater than 1200px, no less than 992px */
+/* @media screen and (min-width: 1200px) {
+    .img-contacto {
+        width: 35em;
+    }
+
+    .container {
+        justify-content: space-around;
+        padding: 0 !important;
+    }
+} */
+@media screen and (max-width: 576px) {
+  .logo-footer {
+    width: 18em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  footer .container-fluid .row .col-md-4 h5 {
+    font-size: 1.4em;
+  }
+  footer .container-fluid .row .col-md-4 p {
+    font-size: .8em;
+  }
+  footer .container-fluid .row .col-12 h5 {
+    margin-bottom: 1.3em;
+  }
+}
+
+/* No greater than 768px, no less than 576px */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .logo-footer {
+    width: 18em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  footer .container-fluid .row .col-md-4 h5 {
+    font-size: 1.4em;
+  }
+  footer .container-fluid .row .col-md-4 p {
+    font-size: .8em;
+  }
+  footer .container-fluid .row .col-12 h5 {
+    margin-bottom: 1.3em;
+  }
+}
+
+/* No greater than 992px, no less than 768px */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .logo-footer {
+    width: 12em;
+    margin-bottom: 2em;
+    margin-top: 4em;
+  }
+  footer .container-fluid .row .col-md-4 h5 {
+    font-size: 1em;
+  }
+  footer .container-fluid .row .col-md-4 p {
+    font-size: .8em;
+  }
+  footer .container-fluid .row .col-12 h5 {
+    margin-bottom: 1.3em;
+  }
+}
+
+/* No greater than 1200px, no less than 992px */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .logo-footer {
+    width: 18em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  footer .container-fluid .row .col-md-4 h5 {
+    font-size: 1.4em;
+  }
+  footer .container-fluid .row .col-md-4 p {
+    font-size: .8em;
+  }
+  footer .container-fluid .row .col-12 h5 {
+    margin-bottom: 1.3em;
+  }}}
