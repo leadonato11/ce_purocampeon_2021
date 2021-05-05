@@ -20,7 +20,10 @@ _Esto no hubiese sido posible sino fuera por la ayuda de:_
 
 * **Gastón Michelán** - *Docente del curso de desarrollo Web*
 * **Magdalena (Magui) Alonso** - *Tutora del curso de desarrollo Web*
-* **Nicolás Farrugia** - *Desarrollador web Sr*
+* **Andrés Kouvach** - *Profesor del curso de Javascript*
+* **Zoe Fusari Bazzi** - *Tutora del curso de Javascript*
+* **Nicolás Farrugia** - *Amigo y Desarrollador web Sr*
+* **Ezequiel Barrales** - *Amigo y Desarrollador web Sr*
 * **Equipo de Coderhouse** - *Institución donde realicé el curso*
 
 
